@@ -66,6 +66,8 @@
     <Compile Include="Assets\SJS\J_Scripts\J_Coppers.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerMove.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerRot.cs" />
+    <Compile Include="Assets\SM_Folder\Scripts\CamFollow.cs" />
+    <Compile Include="Assets\SM_Folder\Scripts\Test_PlayerMovement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
