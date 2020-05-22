@@ -64,24 +64,43 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SJS\J_Scripts\J_Coppers.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Inventory.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Item.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Ore.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerMove.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerRot.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_SeilfDes.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Slots.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\BarManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\DatabaseManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\EquipmentManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\HoverManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\InventoryManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\RarityManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\ShopManager.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Other\EqSlotProps.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Other\ErrorMessageText.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Other\HoverSizeChanger.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Other\ItemProps.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\ScriptablObjects\Attribute.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\ScriptablObjects\Item.cs" />
+    <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\ScriptablObjects\LootTable.cs" />
     <Compile Include="Assets\SM_Folder\Scripts\CamFollow.cs" />
     <Compile Include="Assets\SM_Folder\Scripts\Test_PlayerMovement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -284,14 +303,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.14f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>F:/123456789/MARTIAN/MARTIAN/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/Users/Z420/Documents/GitHub/4p/MARTIAN/MARTIAN/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

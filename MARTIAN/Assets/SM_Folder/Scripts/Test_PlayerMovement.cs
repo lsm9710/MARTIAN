@@ -41,6 +41,7 @@ public class Test_PlayerMovement : MonoBehaviour
             Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
             playerRigidbody.MoveRotation(newRotation);
         }
+
     }
 
     private void Move(float h, float v)
