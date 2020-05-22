@@ -121,5 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a7b47148033444aaf5d82ed08f39d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: 0
   itemName: "\uAD6C\uB9AC"
-  itmeImage: {fileID: 0}
+  itmeImage: {fileID: 21300000, guid: 425950987273cf44c84eb816e7b88495, type: 3}

@@ -64,7 +64,7 @@ public class J_Coppers : MonoBehaviour
         //지금은 5초라는 시간으로 만들어지만 나중에는 채굴 장비의 종류에 따라
         // 저 시간이 달라집니다
        
-            if (currT >= 5f)
+            if (currT >= 1f)
             {
                 explode();
             }

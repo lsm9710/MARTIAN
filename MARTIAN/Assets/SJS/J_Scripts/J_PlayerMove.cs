@@ -22,6 +22,10 @@ public class J_PlayerMove : MonoBehaviour
     CharacterController cc;
 
     public bool onAction;
+
+
+    //중력 값입니다 
+    public float gravity = 9.8f;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,26 +39,23 @@ public class J_PlayerMove : MonoBehaviour
         //인벤토리가 켜지면 바로 탈출하여 아래 코드를 막는다 
         if(inv.activeSelf)
         {
-            return;
+            //freturn;
+        }
+
+        if(cc.isGrounded)
+        {
+            myDir = new Vector3(h, 0, v);
+            myDir = transform.TransformDirection(myDir);
+            myDir *= speed;
         }
         //GetAxisRaw 사용한 이유는 키보드로 작동하는 게임이기 때문에 0 1 -1 이외의 값은
         //불필요합니다
         h = Input.GetAxisRaw("Horizontal");
         v = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            onAction = true;
-        }
-        else if(Input.GetKeyUp(KeyCode.E))
-        {
-            onAction = false;
-        }
 
 
-        myDir = new Vector3(h, 0, v);
-        myDir = transform.TransformDirection(myDir);
-        myDir *= speed;
+        myDir.y -= gravity * Time.deltaTime;
         cc.Move(myDir * Time.deltaTime);
         MouseXRot();
     }
@@ -74,9 +75,23 @@ public class J_PlayerMove : MonoBehaviour
 
     void PlayerInputs()
     {
+        //인벤토리 열고 닫기입니다
         if(Input.GetKeyDown(KeyCode.I))
         {
             inv.SetActive(!inv.activeSelf);
         }
+
+
+
+        //줍기 입니다
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            onAction = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.E))
+        {
+            onAction = false;
+        }
+
     }
 }

@@ -5,19 +5,20 @@ using UnityEngine.UI;
 
 public class J_Item : MonoBehaviour
 {
-    public string itemName;
-    public Image itmeImage;
+    
+    [HideInInspector]
+   public bool click;
 
-    bool click;
-
-
-    private void Update()
+    public void aaa(string itemName, Sprite itmeImage) 
     {
-        if(click)
+        print(click);
+        if (click == true)
         {
-            if(Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.Z))
             {
+                print("활성화 합니다");
                 J_Inventory.j_Inventory.ClicksItem(itemName, itmeImage);
+                Destroy(gameObject);
             }
         }
     }
@@ -26,6 +27,7 @@ public class J_Item : MonoBehaviour
     {
         if(coll.gameObject.tag == "Player")
         {
+            print(coll.gameObject.name);
             click = true;
         }
     }

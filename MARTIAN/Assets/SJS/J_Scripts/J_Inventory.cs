@@ -25,20 +25,30 @@ public class J_Inventory : MonoBehaviour
     {
         
     }
-
-
-
-   public void ClicksItem(string name, Image ima)
+   public void ClicksItem(string name, Sprite ima)
     {
+        print("인벤토리 안입니다");
         foreach(GameObject a in items)
         {
-            if(a.transform.Find("Iamge").gameObject.activeSelf== false)
+            J_Slots j_Slots = a.GetComponent<J_Slots>();
+            print(j_Slots);
+            if(j_Slots.Image.activeSelf == true && j_Slots.name == name)
             {
-                a.transform.Find("Iamge").GetComponent<J_Slots>().IName = name;
-                a.transform.Find("Iamge").GetComponent<J_Slots>().IIamge = ima;
-
+                j_Slots.ToSum();
+                break;
             }
 
+            else if (j_Slots.Image.activeSelf== false)
+            {
+                j_Slots.Image.SetActive(true);
+                print("들어가는 중입니다");
+                j_Slots.MySeilf(name, ima);
+                break;
+            }
         }
     }
+
+
+    //이 함수는 리스트의 모든 내용 물을 검사하여 중복 되는 것이 있으면 합쳐 줍니다
+
 }
