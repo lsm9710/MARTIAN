@@ -66,11 +66,16 @@
     <Compile Include="Assets\SJS\J_Scripts\J_Coppers.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Inventory.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Item.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_ItemManager.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Mune.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Ore.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerMove.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerRot.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_SeilfDes.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Slots.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Tool.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_ToolButtonInfo.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_ToolMakeButton.cs" />
     <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\BarManager.cs" />
     <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\DatabaseManager.cs" />
     <Compile Include="Assets\SJS\RPG_BOX_Free\Scripts\Managers\EquipmentManager.cs" />

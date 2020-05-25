@@ -14,25 +14,22 @@ public class J_Slots : MonoBehaviour
     public GameObject text;
     public string name;
 
-    public int sum;
+    //채굴한 아이템의 이미지
     Image mainImage;
+    //채굴한 아이템의 갯수
     Text texts;
 
     private void Start()
     {
         mainImage = Image.GetComponent<Image>();
+        print(mainImage);
         texts = text.GetComponent<Text>();
     }
-
-    public void ToSum()
+    public void MySeilf(string IName, Sprite IIamge, int sum)
     {
-        sum++;
-        texts.text = sum.ToString();
-    }
-    public void MySeilf(string IName, Sprite IIamge)
-    {
-        mainImage.sprite = IIamge;
         name = IName;
-        sum++;
+        print(mainImage);
+        mainImage.sprite = IIamge;
+        texts.text = sum.ToString();
     }
 }

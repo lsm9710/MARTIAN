@@ -5,7 +5,7 @@ using UnityEngine;
 public class J_Coppers : MonoBehaviour
 {
     //이 스크립트는 구리에 대한 스크립트입니다
-    //플레이어 상호 작용으로 인해서 일정 시간 동안 채굴당하면 
+    //플레이어 상호 작용으로 인해서 일정 시간 동안 채굴당하면
     //자신 보다 작은 분신을 2~5개정도를 분열해서 던져줍니다
     //채굴 시간은 플레이어가 장비하고 있는 장비에 따라 시간이 달라집니다
 
@@ -59,25 +59,25 @@ public class J_Coppers : MonoBehaviour
     void Ore()
     {
         currT += Time.deltaTime;
-        //나중에 하나의 조건을 더 만들어야하는데 그 조건은 
+        //나중에 하나의 조건을 더 만들어야하는데 그 조건은
         //플레이어가 무슨 채굴 장비를 가지고 있는지 확인하는 변수입니다
         //지금은 5초라는 시간으로 만들어지만 나중에는 채굴 장비의 종류에 따라
         // 저 시간이 달라집니다
-       
-            if (currT >= 1f)
-            {
-                explode();
-            }
-           
+
+        if (currT >= 1f)
+        {
+            explode();
+        }
+
     }
 
     void explode()
     {
         gameObject.SetActive(false);
 
-        for(int x = 0; x < cubeInRow; x++)
-            for(int y = 0; y < cubeInRow; y++)
-                for(int z = 0;z< cubeInRow; z++)
+        for (int x = 0; x < cubeInRow; x++)
+            for (int y = 0; y < cubeInRow; y++)
+                for (int z = 0; z < cubeInRow; z++)
                 {
                     createPiece(x, y, z);
                 }
@@ -99,14 +99,16 @@ public class J_Coppers : MonoBehaviour
         ReincarnationSummons();
     }
 
+    public float ReincarnationSize;
     void ReincarnationSummons()
     {
-        for(int i = 0; i < a; i++)
+        for (int i = 0; i < a; i++)
         {
             GameObject sum = Instantiate(reincarnation);
-           
+
             sum.transform.position = transform.position;
-            sum.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+            //여기가 새로 생성해주는 재료의 크기를 정해주는 변수입니다
+            sum.transform.localScale = new Vector3(ReincarnationSize, ReincarnationSize, ReincarnationSize);
         }
 
         Vector3 explosionPos = transform.position;
@@ -132,8 +134,8 @@ public class J_Coppers : MonoBehaviour
         piece = GameObject.CreatePrimitive(PrimitiveType.Cube);
 
         //새로 만들어준 큐브들의 위치를 이 스크립트 큐브의 위치로 정해준다
-        piece.transform.position = transform.position+ new Vector3(cubeSize *x, 
-            cubeSize*y, cubeSize*z) - cubesPivot;
+        piece.transform.position = transform.position + new Vector3(cubeSize * x,
+            cubeSize * y, cubeSize * z) - cubesPivot;
         piece.transform.localScale = new Vector3(cubeSize, cubeSize, cubeSize);
 
         //만들어내는 큐브에 리지드바디를 넣어주고 그 무게를 0.2f 바꿔줍니다
@@ -152,13 +154,13 @@ public class J_Coppers : MonoBehaviour
             mining = true;
         }
     }
-/*
-    private void OnCollisionEnter(Collision coll)
-    {
-        if (coll.gameObject.tag == "Player")
+    /*
+        private void OnCollisionEnter(Collision coll)
         {
-            //충돌 대상이 플레이어면 채굴이 가능합니다
-            mining = true;
-        }
-    }*/
+            if (coll.gameObject.tag == "Player")
+            {
+                //충돌 대상이 플레이어면 채굴이 가능합니다
+                mining = true;
+            }
+        }*/
 }
