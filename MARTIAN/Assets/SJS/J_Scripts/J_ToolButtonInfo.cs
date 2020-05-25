@@ -28,7 +28,6 @@ public class J_ToolButtonInfo : MonoBehaviour
     void Start()
     {
         my = GetComponent<Button>();
-
     }
 
     // Update is called once per frame
@@ -56,6 +55,7 @@ public class J_ToolButtonInfo : MonoBehaviour
 
         for (int i = 0; i < aountMat; i++)
         {
+            //매뉴에 지금 내가 들어갔다고 알려준다
             J_Mune.mune.buttonNmb = gameObject;
             my.interactable = false;
             for (int j = 0; j < J_ItemManager.j_Item.items2.Length; j++)
@@ -63,20 +63,23 @@ public class J_ToolButtonInfo : MonoBehaviour
                 if (J_ItemManager.j_Item.items2[j] != null)
                     if (names[i] == J_ItemManager.j_Item.items2[j].itemName)
                     {
-                        setSum = J_ItemManager.j_Item.sum[j];
+                        setSum = J_ItemManager.j_Item.items2[j].auount;
                     }
             }
             stuff.GetComponent<Image>().sprite = sprites[i];
             //서로 갯수가 다르면 플레이어 측 아이템 색을 빨강색으로 표시 합니다
-            if (setSum != spriteAount[i])
+            //즉 아이템 만드는데 필요한 수량이 부족하다는것은 적다는 것이다 
+            if (setSum < spriteAount[i])
             {
                 stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" + setSum.ToString() + "</color>" +
                      "/" + spriteAount[i].ToString();
             }
-            else
+            //필요 재료량보다 가지고 있는 수가 더 많을 수도 있다
+            else if(setSum >= spriteAount[i])
             {
                 stuff.GetComponentInChildren<Text>().text = setSum.ToString() +
                 "/" + spriteAount[i].ToString();
+
             }
 
             GameObject a = Instantiate(stuff);

@@ -23,10 +23,22 @@ public class J_Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ClicksItemManagers();
     }
    
 
+    //이 함수는 아이템 메니저에서 변경된 사항을 슬롯에게 적용해주는 역활을 해줍니다
+    void ClicksItemManagers()
+    {
+        for(int i =0; i < J_ItemManager.j_Item.items2.Length; i++)
+        {
+            if(J_ItemManager.j_Item.items2[i]== null)
+            {
+                items[i].GetComponent<J_Slots>().MySeilf(null, null, 0);
+            }
+        }
+        
+    }
 
     //이 함수는 리스트의 모든 내용 물을 검사하여 중복 되는 것이 있으면 합쳐 줍니다
 

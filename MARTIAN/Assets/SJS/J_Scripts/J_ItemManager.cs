@@ -10,9 +10,6 @@ public class J_ItemManager : MonoBehaviour
     public J_Item[] items2 = new J_Item[21];
     //아이템의 정보를 관리해 줄 변수배열입니다
     //public GameObject[] items;
-   public int[] sum;
-    Sprite[] sprite;
-
 
     J_PlayerMove player;
     private void Awake()
@@ -25,8 +22,6 @@ public class J_ItemManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sum = new int[21];
-        sprite = new Sprite[21];
     }
 
     // Update is called once per frame
@@ -40,8 +35,8 @@ public class J_ItemManager : MonoBehaviour
                 if(items2[i] !=null)
                 {
                     s.Image.SetActive(true);
-                    s.Image.GetComponent<Image>().sprite = sprite[i];
-                    s.text.GetComponent<Text>().text = sum[i].ToString();
+                    s.Image.GetComponent<Image>().sprite = items2[i].itemImage;
+                    s.text.GetComponent<Text>().text = items2[i].auount.ToString();
                     s.name = items2[i].itemName;
                 }                                   
             }
@@ -62,7 +57,7 @@ public class J_ItemManager : MonoBehaviour
             {
                 if (items2[i].itemName == j_Item.itemName)
                 {
-                    items2[i].auount++; sum[i]++;
+                    items2[i].auount++;
                     break;
                 }
             }
@@ -70,8 +65,8 @@ public class J_ItemManager : MonoBehaviour
             else if (items2[i] == null)
             {
                 items2[i] = j_Item;
-                sum[i]++;
-                sprite[i] = j_Item.itemImage;
+                items2[i].auount++;
+                items2[i].itemImage = j_Item.itemImage;
                 //받아드려오는 오브젝트의 내부속 이름
                 // items2[i].itemName = j_Item.itemName;
                 //오브젝트의 이미지 스프라이트 설정해줍니다

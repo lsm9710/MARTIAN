@@ -14,7 +14,6 @@ public class J_Item : MonoBehaviour
 
     public void aaa() 
     {
-        print(click);
         if (click == true)
         {
             if (Input.GetKeyDown(KeyCode.Z))

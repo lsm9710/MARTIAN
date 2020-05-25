@@ -22,13 +22,11 @@ public class J_Slots : MonoBehaviour
     private void Start()
     {
         mainImage = Image.GetComponent<Image>();
-        print(mainImage);
         texts = text.GetComponent<Text>();
     }
     public void MySeilf(string IName, Sprite IIamge, int sum)
     {
         name = IName;
-        print(mainImage);
         mainImage.sprite = IIamge;
         texts.text = sum.ToString();
     }
