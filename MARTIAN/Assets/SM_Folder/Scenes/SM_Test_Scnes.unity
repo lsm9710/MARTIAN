@@ -285,7 +285,6 @@ GameObject:
   - component: {fileID: 601550041}
   - component: {fileID: 601550040}
   - component: {fileID: 601550039}
-  - component: {fileID: 601550043}
   - component: {fileID: 601550044}
   m_Layer: 10
   m_Name: HealPack
@@ -367,19 +366,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &601550043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601550038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e612b9890afd0484a8a18dc22cfcf452, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionRange: 0
 --- !u!54 &601550044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -646,13 +632,15 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2078621671, guid: 1ad28e2126ca94e43b06d2fdc8e163e7, type: 3}
-      propertyPath: m_StartOxygen
-      value: 1
+    - target: {fileID: 325664491733988895, guid: 1ad28e2126ca94e43b06d2fdc8e163e7,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2078621671, guid: 1ad28e2126ca94e43b06d2fdc8e163e7, type: 3}
-      propertyPath: chokeTime
-      value: 2
+    - target: {fileID: 325664491733988895, guid: 1ad28e2126ca94e43b06d2fdc8e163e7,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3129666763948588937, guid: 1ad28e2126ca94e43b06d2fdc8e163e7,
         type: 3}
@@ -723,6 +711,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test_Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426080449180826608, guid: 1ad28e2126ca94e43b06d2fdc8e163e7,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6426080449180826608, guid: 1ad28e2126ca94e43b06d2fdc8e163e7,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ad28e2126ca94e43b06d2fdc8e163e7, type: 3}

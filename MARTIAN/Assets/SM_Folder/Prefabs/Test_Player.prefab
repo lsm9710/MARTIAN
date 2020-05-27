@@ -1126,6 +1126,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c38cf38f9a46b3c49aa06fa71bb349d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  h_StartHunger: 100
+  h_FillImage: {fileID: 7381482019733367766}
+  h_Slider: {fileID: 7365734345476862243}
+  h_FullHungerColor: {r: 1, g: 0.77336574, b: 0.1273585, a: 1}
+  h_ZeroHungerColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  h_CurrentHunger: 0
+  h_CaloriesBurned: 3
+  t_StartThirsty: 100
+  t_FillImage: {fileID: 5378081895711007906}
+  t_Slider: {fileID: 1243811143602184822}
+  t_FullThirstyColor: {r: 0.19339621, g: 1, b: 0.88914156, a: 1}
+  t_ZeroThirstyColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  t_CurrentThirsty: 0
+  t_ConsumptionMoisture: 1
 --- !u!114 &2078621673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1139,6 +1153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healPackCount: 0
+  h_Drained: 0
+  t_Dehydration: 0
 --- !u!1 &6309597751602674357
 GameObject:
   m_ObjectHideFlags: 0
