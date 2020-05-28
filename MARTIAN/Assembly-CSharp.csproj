@@ -63,11 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProjectCars\Raider\Script\OrbitView.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_Car.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Coppers.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Inventory.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Item.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_ItemManager.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_MaterialParel.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Mune.cs" />
+    <Compile Include="Assets\SJS\J_Scripts\J_NeedInfo.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_Ore.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerMove.cs" />
     <Compile Include="Assets\SJS\J_Scripts\J_PlayerRot.cs" />
