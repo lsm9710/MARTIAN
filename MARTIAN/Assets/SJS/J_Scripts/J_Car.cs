@@ -61,8 +61,10 @@ public class J_Car : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.E))
             {
                 //플레이어 이동을 막습니다  
+
                 playerMove.myMoveban = !playerMove.myMoveban;
-                carneedwindow.SetActive(!carneedwindow);
+                carneedwindow.SetActive(!carneedwindow.activeSelf);
+
             }
         }
     }
