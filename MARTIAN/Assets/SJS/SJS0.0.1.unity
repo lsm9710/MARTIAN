@@ -5415,11 +5415,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b4bbf3fbebec4644a171a8d95b5a083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  j_Car: {fileID: 1031082442}
+  stuff: {fileID: 1038267131675885374, guid: d35896447cc26c440916779b1f18067e, type: 3}
+  s: 000000
+  sprites:
+  - {fileID: 21300000, guid: 425950987273cf44c84eb816e7b88495, type: 3}
+  - {fileID: 21300000, guid: 345a8e16482823b4f841b07305ccf986, type: 3}
+  - {fileID: 21300000, guid: bdd3ddbccd3890442a1df8f86666955d, type: 3}
+  aountMat: 3
+  materials: {fileID: 0}
+  names:
+  - "\uAD6C\uB9AC"
+  - "\uC5F4\uC120"
+  - "\uBA54\uD0C4"
+  spriteAount: 140000000a00000005000000
   carneedwindow: {fileID: 1422964626}
   state: 0
-  a: 0
-  reNeed: []
-  reAount: 
 --- !u!65 &1031082443
 BoxCollider:
   m_ObjectHideFlags: 0

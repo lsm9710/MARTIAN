@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class J_Car : MonoBehaviour
+public class J_Car : J_CarRepair
 {
     //현재 이 차량은 고장난 상태입니다 
     //특정 재료를 모아와야 이 차량을 수리할 수 있습니다 
@@ -25,15 +25,6 @@ public class J_Car : MonoBehaviour
     }
 
     public State state;
-    //총 얼마나 필요한지 표시 해줄 변수입니다 
-    public int a;
-
-
-    //필요한 재료를 검색하는데 사용될 이름 저장 배열변수입니다
-    public string[] reNeed;
-
-    //이름으로 검색한 인덱스를 기준으로 필요한 수량만큼 가지고 있는지 체크하는 배열 변수입니다
-    public int[] reAount;
 
 
     J_PlayerMove playerMove;
@@ -64,7 +55,7 @@ public class J_Car : MonoBehaviour
 
                 playerMove.myMoveban = !playerMove.myMoveban;
                 carneedwindow.SetActive(!carneedwindow.activeSelf);
-
+                Test();
             }
         }
     }
