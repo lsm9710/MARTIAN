@@ -5,9 +5,14 @@ using UnityEngine.UI;
 
 public class J_Item : MonoBehaviour
 {
+    //아이템 이름
     public string itemName;
+    //아이템 이미지
     public Sprite itemImage;
+    //아이템 갯수
     public int auount;
+
+    //여기에 아이템 타입을 저장해줄 변수를 만들어야합니다 
 
     [HideInInspector]
    public bool click;

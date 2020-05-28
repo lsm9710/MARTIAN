@@ -43,6 +43,14 @@ public class J_Car : J_CarRepair
         {
             Broken();
         }
+
+        //수리 상태가 되면 재료 창을 닫는다 
+        else if(state == State.REPAIR)
+        {
+            carneedwindow.SetActive(false);
+            playerMove.myMoveban = !playerMove.myMoveban;
+
+        }
     }
 
     void Broken()
@@ -56,6 +64,7 @@ public class J_Car : J_CarRepair
                 playerMove.myMoveban = !playerMove.myMoveban;
                 carneedwindow.SetActive(!carneedwindow.activeSelf);
                 Test();
+                sss = true;
             }
         }
     }

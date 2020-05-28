@@ -40,10 +40,8 @@ public class J_ItemManager : MonoBehaviour
                     s.name = items2[i].itemName;
                 }                                   
             }
-        }
-       
+        }  
     }
-
 
     public void ClicksItem(GameObject x)
     {

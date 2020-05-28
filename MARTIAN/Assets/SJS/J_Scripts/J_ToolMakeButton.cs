@@ -52,7 +52,7 @@ public class J_ToolMakeButton : MonoBehaviour
             {
                 print(makeClicks[i]);
                 //논리적 계산을 통한 true검사입니다
-                s = s & makeClicks[i];
+                s &= makeClicks[i];
             }
 
             if(s)
@@ -64,8 +64,6 @@ public class J_ToolMakeButton : MonoBehaviour
                 button.interactable = false;
             }
         }
-        print(s);
-
         //여기는 만들수 있는지 채크해주는 for문입니다 
         
     }
@@ -94,12 +92,21 @@ public class J_ToolMakeButton : MonoBehaviour
         }
        
     }
-
+    void indxNmb(J_ToolButtonInfo x, int i, int j)
+    {
+        if (J_ItemManager.j_Item.items2[i].auount >= x.spriteAount[j])
+        {
+            //확인한 배열의 값을 true로 만들어줍니다
+            makeClicks[j] = true;
+            subAount[j] = x.spriteAount[j];
+        }
+    }
     //위에 코드로만은 딱 하나만을 확인하기 대문 복수 계산을 위한 다른 함수가 필요합니다 
 
-        //이제 여기서는 실제로 계산하는 곳입니다 
+    //이제 여기서는 실제로 계산하는 곳입니다 
     public void ButtonActionSet()
     {
+        clicks = makeClicks.Length;
         J_ToolButtonInfo x = J_Mune.mune.buttonNmb.GetComponent<J_ToolButtonInfo>();
         if (clicks == makeClicks.Length)
         {
@@ -113,22 +120,18 @@ public class J_ToolMakeButton : MonoBehaviour
                         if (J_ItemManager.j_Item.items2[i].itemName == x.names[j])
                         {
                          
-                            J_ItemManager.j_Item.items2[i].auount -= x.aountMat;
+                            J_ItemManager.j_Item.items2[i].auount -= x.spriteAount[j];
                             x.OnButtons();
                         }
                     }
+                }
+                else
+                {
+                    break;
                 }
             }
         }
     }
 
-    void indxNmb(J_ToolButtonInfo x, int i , int j)
-    {
-        if(J_ItemManager.j_Item.items2[i].auount >= x.spriteAount[j])
-        {
-            //확인한 배열의 값을 true로 만들어줍니다
-            makeClicks[j] = true;
-            subAount[j] = x.spriteAount[j];
-        }
-    }
+    
 }

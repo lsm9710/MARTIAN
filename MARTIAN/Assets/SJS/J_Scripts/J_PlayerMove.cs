@@ -48,6 +48,7 @@ public class J_PlayerMove : MonoBehaviour
             return;
         }
 
+
         if (cc.isGrounded)
         {
             myDir = new Vector3(h, 0, v);
@@ -87,6 +88,7 @@ public class J_PlayerMove : MonoBehaviour
             inv.SetActive(!inv.activeSelf);
             invClics = !invClics;
         }
+
 
         if (Input.GetKeyDown(KeyCode.E))
         {

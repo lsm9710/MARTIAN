@@ -13,32 +13,72 @@ public class J_CarRepair : MonoBehaviour
     public Sprite[] sprites;
     public int aountMat;
     public GameObject materials;
+    public Button carReButton;
     public string[] names;
     public int[] spriteAount;
+
+
+    public bool sss = true;
+
+    public void OnButtons()
+    {
+        j_Car.state = J_Car.State.REPAIR;
+        ButtonActionSet();
+
+    }
+
+    //여기가 실제 값을 계산하는 곳입니다 
+    public void ButtonActionSet()
+    {
+        for (int i = 0; i < J_ItemManager.j_Item.items2.Length; i++)
+        {
+            if (J_ItemManager.j_Item.items2[i] != null)
+            {
+                for (int j = 0; j < names.Length; j++)
+                {
+                    //서로의 아이템 정보중 이름을 검사합니다
+                    if (J_ItemManager.j_Item.items2[i].itemName == names[j])
+                    {
+                        print("여기서 수식이 계산됩니다");
+                        J_ItemManager.j_Item.items2[i].auount -= spriteAount[j];
+                        if(J_ItemManager.j_Item.items2[i].auount == 0)
+                        {
+                            J_ItemManager.j_Item.items2[i] = null;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
 
 
     public void Test()
     {
-        //총 몇개의 재료가 있는지 확인하고 그만큼 for를 돌려서 검사합니다 
+       /* //총 몇개의 재료가 있는지 확인하고 그만큼 for를 돌려서 검사합니다 
         for (int i = 0; i < aountMat; i++)
         {
             //제작 버튼의 활성화를 검사하기 위한 bool문입니다 
             s[i] = true;
         }
-
-
-
-        //여기는 메뉴가 아니라 다른 곳입니다 그곳에 맞개 수정해줘야합니다
-        /*if (J_Mune.mune.buttonNmb != null)
+*/
+        
+        if(materials.transform.childCount!= 0)
         {
             for (int i = 0; i < materials.transform.childCount; i++)
             {
                 //부모 아래의 자식 게임오브젝트를 삭제하겠다고 알려줍니다
                 Destroy(materials.transform.GetChild(i).gameObject);
             }
-        }*/
-
+        }
+        
+        //여기는 메뉴가 아니라 다른 곳입니다 그곳에 맞개 수정해줘야합니다
+        /*if (J_Mune.mune.buttonNmb != null)
+        {
+           
+        }
+*/
         for (int i = 0; i < aountMat; i++)
         {
             //매뉴에 지금 내가 들어갔다고 알려준다
@@ -71,7 +111,7 @@ public class J_CarRepair : MonoBehaviour
                             stuff.GetComponentInChildren<Text>().text =
                                 J_ItemManager.j_Item.items2[j].auount.ToString() +
                             "/" + spriteAount[i].ToString();
-                            s[i] = false;
+                            s[i] = true;
                         }
                     }
                     else
@@ -82,7 +122,7 @@ public class J_CarRepair : MonoBehaviour
 
                     }
                 }
-                else if (s[i] == true)
+                else if (s[i] == false)
                 {
                     print("설마 들어오냐?");
                     stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" +
@@ -98,5 +138,16 @@ public class J_CarRepair : MonoBehaviour
             GameObject a = Instantiate(stuff);
             a.transform.SetParent(materials.gameObject.transform);
         }
+
+        for (int i = 0; i < s.Length; i++)
+        {
+            sss &= s[i];
+            if (sss == true)
+            {
+                carReButton.GetComponent<Button>().interactable = true;
+            }
+        }
+
+       
     }
 }
