@@ -7,6 +7,11 @@ public class ItemManager : MonoBehaviour
     public static ItemManager instance;
     //힐팩을 저장할 갯수
     public int healPackCount;
+    //감자를 저장할 갯수
+    public int potatoCount;
+
+    CleaTheLand ctl;
+
 
     //디버프
     //탈진

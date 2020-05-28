@@ -964,6 +964,8 @@ GameObject:
   - component: {fileID: 2078621672}
   - component: {fileID: 1274630175070952240}
   - component: {fileID: 2078621673}
+  - component: {fileID: 6309597752202795378}
+  - component: {fileID: 6309597752202795379}
   m_Layer: 11
   m_Name: Test_Player
   m_TagString: Player
@@ -985,6 +987,7 @@ Transform:
   - {fileID: 6309597751602674356}
   - {fileID: 8138358362379014136}
   - {fileID: 2121246609}
+  - {fileID: 3764459704866074388}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1083,7 +1086,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6309597751474890383}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67ee37026adb63948b75591d32be66d9, type: 3}
   m_Name: 
@@ -1103,7 +1106,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6309597751474890383}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38d0e9d9433a62f41b39502cd7eeb1df, type: 3}
   m_Name: 
@@ -1121,7 +1124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6309597751474890383}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c38cf38f9a46b3c49aa06fa71bb349d6, type: 3}
   m_Name: 
@@ -1136,7 +1139,7 @@ MonoBehaviour:
   t_StartThirsty: 100
   t_FillImage: {fileID: 5378081895711007906}
   t_Slider: {fileID: 1243811143602184822}
-  t_FullThirstyColor: {r: 0.19339621, g: 1, b: 0.88914156, a: 1}
+  t_FullThirstyColor: {r: 0.19215685, g: 0.25410202, b: 1, a: 1}
   t_ZeroThirstyColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
   t_CurrentThirsty: 0
   t_ConsumptionMoisture: 1
@@ -1153,8 +1156,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healPackCount: 0
+  potatoCount: 0
   h_Drained: 0
   t_Dehydration: 0
+--- !u!114 &6309597752202795378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309597751474890383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c9cf17246677a649b9acbe212982c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  rayStart: {fileID: 7674420118254541072}
+  rayDis: 3
+  angle: -3.5
+  m_AmIOutSide: 0
+--- !u!114 &6309597752202795379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309597751474890383}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04cffa714381064d8e9742171cbe4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  rayStart: {fileID: 7674420118254541072}
+  rayDis: 3
+  angle: -3.5
+  potatoFactory: {fileID: 5364998227772910248, guid: aa335038cf5b021428d39a0afed517d5,
+    type: 3}
+  carrotFactory: {fileID: 4380685147692999399, guid: 7360df7d3fd489f4bb6d188bafd4a246,
+    type: 3}
+  radishFactory: {fileID: 6263808248931308730, guid: 8477592db39a2a24eaf9be5dc0112d21,
+    type: 3}
+  isInven: 0
 --- !u!1 &6309597751602674357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,3 +1618,33 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!1 &7674420118254541072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3764459704866074388}
+  m_Layer: 11
+  m_Name: RayStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3764459704866074388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7674420118254541072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6309597751474890377}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

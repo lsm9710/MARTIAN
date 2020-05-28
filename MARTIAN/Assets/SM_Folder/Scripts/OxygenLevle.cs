@@ -45,7 +45,6 @@ public class OxygenLevle : MonoBehaviour
         m_FillImage.fillAmount = m_CurrentOxygen / m_StartOxygen;
         if (m_CurrentOxygen <= 0f && !m_Depletion)
         {
-            Debug.Log("111111111111111");
             StartCoroutine(OnChoke());
         }
     }
