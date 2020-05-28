@@ -5,6 +5,7 @@ MARTIAN/.vs/
 MARTIAN/obj/
 MARTIAN/Assembly-CSharp
 MARTIAN/UpgradeLog.htm
-MARTIAN/Assembly-CSharp-Editor.csproj
-MARTIAN/Assembly-CSharp.csproj
+
 MARTIAN/MARTIAN.sln
+MARTIAN/Assembly-CSharp.csproj
+MARTIAN/Assembly-CSharp-Editor.csproj
