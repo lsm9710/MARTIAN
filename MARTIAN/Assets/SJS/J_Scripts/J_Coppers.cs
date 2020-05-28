@@ -146,21 +146,12 @@ public class J_Coppers : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider coll)
+    private void OnTriggerStay(Collider coll)
     {
         if (coll.gameObject.tag == "Player")
         {
             //충돌 대상이 플레이어면 채굴이 가능합니다
             mining = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider coll)
-    {
-        if (coll.gameObject.tag == "Player")
-        {
-            //충돌 대상이 플레이어면 채굴이 가능합니다
-            mining = false;
         }
     }
     /*

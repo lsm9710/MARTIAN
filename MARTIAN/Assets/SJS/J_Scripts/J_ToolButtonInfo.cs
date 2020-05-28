@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class J_ToolButtonInfo : MonoBehaviour
 {
-
     //버튼을 클릭하면 그 버튼의 만드는데 필요한 재료를 알수 있습니다
 
     public GameObject stuff;
@@ -34,23 +33,13 @@ public class J_ToolButtonInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //OnButtons();
+
     }
 
-
-    //이 bool문은 아래 함수에서 생기는 버그인 값이 두번 누적되는걸 방지하기위해서 존재합니다
-    public bool[] s;
     //또 다른 문제점 자신을 계속해서 클릭하면 누적되는것이 아니라 선택을 못하게 막아야한다
     int setSum;
     public void OnButtons()
     {
-        J_ToolMakeButton.j_ToolMakeButton.s = true;
-
-        for(int i = 0; i  < aountMat; i++)
-        {
-            s[i] = true;
-        }
-
         if (J_Mune.mune.buttonNmb != null)
         {
             J_Mune.mune.buttonNmb.GetComponent<Button>().interactable = true;
@@ -60,64 +49,38 @@ public class J_ToolButtonInfo : MonoBehaviour
                 Destroy(materials.transform.GetChild(i).gameObject);
             }
         }
-            J_Mune.mune.buttonNmb = gameObject;
+
+
+
 
         for (int i = 0; i < aountMat; i++)
         {
             //매뉴에 지금 내가 들어갔다고 알려준다
-            //자기 자신 버튼은 비활성화 해준다
+            J_Mune.mune.buttonNmb = gameObject;
             my.interactable = false;
             for (int j = 0; j < J_ItemManager.j_Item.items2.Length; j++)
             {
                 if (J_ItemManager.j_Item.items2[j] != null)
-                {
-                    print("비어있지 않습니다" + J_ItemManager.j_Item.items2[j]);
                     if (names[i] == J_ItemManager.j_Item.items2[j].itemName)
                     {
-                        print("동일합니다" + names[i] + " / " + J_ItemManager.j_Item.items2[j].itemName);
-                        print(J_ItemManager.j_Item.items2[j].auount);
-                        print(spriteAount[i]);
-                        //서로 다르기 때문에 앞쪽은 빨강색 뒷 색은 검은색으로표시해줍니다   
-                        if (J_ItemManager.j_Item.items2[j].auount < spriteAount[i])
-                        {
-                            print("서로 다른 값을 가지고 있습니다");
-                            //텍스트를 빨강색으로 표시해줍니다
-                            stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" +
-                                J_ItemManager.j_Item.items2[j].auount.ToString() + "</color>" +
-                                 //월래색인 검은색으로 표시합니다
-                                 "/" + spriteAount[i].ToString();
-                            s[i] = false;
-                        }
-                        //필요 재료량보다 가지고 있는 수가 더 많을 수도 있다
-                        else if (J_ItemManager.j_Item.items2[j].auount >= spriteAount[i])
-                        {
-                            print("같은 값을 가지고 있어 확인되었습니다");
-                            stuff.GetComponentInChildren<Text>().text =
-                                J_ItemManager.j_Item.items2[j].auount.ToString() +
-                            "/" + spriteAount[i].ToString();
-                            s[i] = false;
-                        }
+                        setSum = J_ItemManager.j_Item.items2[j].auount;
                     }
-                    else
-                    {
-                        stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" +
-                                0 + "</color>" +
-                                 "/" + spriteAount[i].ToString();
-
-                    }
-                }
-                else if (s[i] == true)
-                {
-                    print("설마 들어오냐?");
-                    stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" +
-                                0 + "</color>" +
-                                 "/" + spriteAount[i].ToString();
-                }
             }
             stuff.GetComponent<Image>().sprite = sprites[i];
             //서로 갯수가 다르면 플레이어 측 아이템 색을 빨강색으로 표시 합니다
             //즉 아이템 만드는데 필요한 수량이 부족하다는것은 적다는 것이다 
-            
+            if (setSum < spriteAount[i])
+            {
+                stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" + setSum.ToString() + "</color>" +
+                     "/" + spriteAount[i].ToString();
+            }
+            //필요 재료량보다 가지고 있는 수가 더 많을 수도 있다
+            else if(setSum >= spriteAount[i])
+            {
+                stuff.GetComponentInChildren<Text>().text = setSum.ToString() +
+                "/" + spriteAount[i].ToString();
+
+            }
 
             GameObject a = Instantiate(stuff);
             a.transform.SetParent(materials.gameObject.transform);
