@@ -1099,11 +1099,11 @@ MonoBehaviour:
   rayStart: {fileID: 7674420118254541072}
   rayDis: 3
   angle: -3.5
-  potatoFactory: {fileID: 5364998227772910248, guid: aa335038cf5b021428d39a0afed517d5,
+  potatoFactory: {fileID: 9219411411021021898, guid: 6037b916f5cb68642a03232f6bf39d24,
     type: 3}
-  carrotFactory: {fileID: 4380685147692999399, guid: 7360df7d3fd489f4bb6d188bafd4a246,
+  carrotFactory: {fileID: 6077778283635901793, guid: 8213e951808e472428fe1f7086252331,
     type: 3}
-  radishFactory: {fileID: 6263808248931308730, guid: 8477592db39a2a24eaf9be5dc0112d21,
+  radishFactory: {fileID: 3734714069461123257, guid: f3b6719303765c74e9231274e7bbbae2,
     type: 3}
   isInven: 0
 --- !u!114 &2078621673

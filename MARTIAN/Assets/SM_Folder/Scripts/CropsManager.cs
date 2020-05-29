@@ -101,13 +101,16 @@ public class CropsManager : MonoBehaviour
         Ray ray = new Ray(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle);
         Debug.DrawRay(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle, Color.blue);
 
-        if (Physics.Raycast(ray, out rayHit, rayDis, (1 << 12)))
+        if (Physics.Raycast(ray, out rayHit, rayDis, (1 << 12))&& waterCount > 0)
         {
             MeshRenderer mr = rayHit.transform.gameObject.GetComponent<MeshRenderer>();
             mr.material.color = new Color(0.3867925f, 0.1446878f, 0.1112941f);
 
             //물 카운트를 줄인다.
             waterCount--;
+            //흙의 상태를 젖음으로 바꿔준다
+            SoilCondition sc = rayHit.transform.gameObject.GetComponent<SoilCondition>();
+            sc.state = SoilCondition.AmIWet.Yes;
         }
     }
 
