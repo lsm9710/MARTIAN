@@ -38,7 +38,6 @@ public class CleaTheLand : MonoBehaviour
                 //사용자 입력을 통해 레이를 발사하고 싶다.
                 if (Input.GetButtonDown("Fire1"))
                 {
-                    Debug.Log("1111111");
                     OutSide_RayFiring();
                 }
                 break;
@@ -55,13 +54,11 @@ public class CleaTheLand : MonoBehaviour
     //외부일때 사용할 함수
     private void OutSide_RayFiring()
     {
-        Debug.Log("2222222");
         Ray ray = new Ray(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle);
         Debug.DrawRay(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle, Color.red);
 
         if (Physics.Raycast(ray, out rayHit, rayDis, (1 << 12)))
         {
-            Debug.Log("333333333");
             MeshRenderer mr = rayHit.transform.gameObject.GetComponent<MeshRenderer>();
             if (mr.enabled == true) mr.enabled = false;
         }

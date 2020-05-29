@@ -8,7 +8,14 @@ public class ItemManager : MonoBehaviour
     //힐팩을 저장할 갯수
     public int healPackCount;
     //감자를 저장할 갯수
-    public int potatoCount;
+    public int potatoCount = 6;
+    //당근을 저장할 함수
+    public int carrotCount = 6;
+    //무를 저장할 함수
+    public int radishCount = 6;
+
+    //물을 저장할 함수
+    public int waterCount = 30;
 
     CleaTheLand ctl;
 

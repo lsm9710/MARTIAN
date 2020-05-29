@@ -959,13 +959,13 @@ GameObject:
   - component: {fileID: 6309597751474890379}
   - component: {fileID: 6309597751474890380}
   - component: {fileID: 6309597751474890381}
+  - component: {fileID: 6309597752202795378}
+  - component: {fileID: 6309597752202795379}
+  - component: {fileID: 2078621673}
   - component: {fileID: 6309597751474890382}
   - component: {fileID: 2078621671}
   - component: {fileID: 2078621672}
   - component: {fileID: 1274630175070952240}
-  - component: {fileID: 2078621673}
-  - component: {fileID: 6309597752202795378}
-  - component: {fileID: 6309597752202795379}
   m_Layer: 11
   m_Name: Test_Player
   m_TagString: Player
@@ -1066,6 +1066,65 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6309597752202795378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309597751474890383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c9cf17246677a649b9acbe212982c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  rayStart: {fileID: 7674420118254541072}
+  rayDis: 3
+  angle: -3.5
+  m_AmIOutSide: 0
+--- !u!114 &6309597752202795379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309597751474890383}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04cffa714381064d8e9742171cbe4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  rayStart: {fileID: 7674420118254541072}
+  rayDis: 3
+  angle: -3.5
+  potatoFactory: {fileID: 5364998227772910248, guid: aa335038cf5b021428d39a0afed517d5,
+    type: 3}
+  carrotFactory: {fileID: 4380685147692999399, guid: 7360df7d3fd489f4bb6d188bafd4a246,
+    type: 3}
+  radishFactory: {fileID: 6263808248931308730, guid: 8477592db39a2a24eaf9be5dc0112d21,
+    type: 3}
+  isInven: 0
+--- !u!114 &2078621673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6309597751474890383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f60ca0b39e598439b236ccaff085f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healPackCount: 0
+  potatoCount: 6
+  carrotCount: 6
+  radishCount: 6
+  waterCount: 30
+  h_Drained: 0
+  t_Dehydration: 0
 --- !u!114 &6309597751474890382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,62 +1202,6 @@ MonoBehaviour:
   t_ZeroThirstyColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
   t_CurrentThirsty: 0
   t_ConsumptionMoisture: 1
---- !u!114 &2078621673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309597751474890383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f60ca0b39e598439b236ccaff085f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healPackCount: 0
-  potatoCount: 0
-  h_Drained: 0
-  t_Dehydration: 0
---- !u!114 &6309597752202795378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309597751474890383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c9cf17246677a649b9acbe212982c44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  rayStart: {fileID: 7674420118254541072}
-  rayDis: 3
-  angle: -3.5
-  m_AmIOutSide: 0
---- !u!114 &6309597752202795379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6309597751474890383}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d04cffa714381064d8e9742171cbe4fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  rayStart: {fileID: 7674420118254541072}
-  rayDis: 3
-  angle: -3.5
-  potatoFactory: {fileID: 5364998227772910248, guid: aa335038cf5b021428d39a0afed517d5,
-    type: 3}
-  carrotFactory: {fileID: 4380685147692999399, guid: 7360df7d3fd489f4bb6d188bafd4a246,
-    type: 3}
-  radishFactory: {fileID: 6263808248931308730, guid: 8477592db39a2a24eaf9be5dc0112d21,
-    type: 3}
-  isInven: 0
 --- !u!1 &6309597751602674357
 GameObject:
   m_ObjectHideFlags: 0

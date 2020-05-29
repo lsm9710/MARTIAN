@@ -30,6 +30,7 @@ public class CropsManager : MonoBehaviour
     public GameObject radishFactory;
 
     CalorieLevle cl;
+    ItemManager im;
 
     //인벤토리를 열었는지 체크할 불변수
     public bool isInven;
@@ -38,6 +39,7 @@ public class CropsManager : MonoBehaviour
     void Start()
     {
         cl = gameObject.GetComponent<CalorieLevle>();
+        im = gameObject.GetComponent<ItemManager>();
     }
 
     // Update is called once per frame
@@ -52,29 +54,29 @@ public class CropsManager : MonoBehaviour
         {
             case WhatCrops.POTATO:
                 if (isInven) return;
-                if (Input.GetButtonDown("Fire1")) PlantCrops(potatoFactory);
+                if (Input.GetButtonDown("Fire1")) PlantCrops(potatoFactory, ref im.potatoCount);
                 if (Input.GetKeyDown(KeyCode.E)) cl.h_CurrentHunger += 5f;
                 break;
             case WhatCrops.CARROT:
                 if (isInven) return;
-                if (Input.GetButtonDown("Fire1")) PlantCrops(carrotFactory);
+                if (Input.GetButtonDown("Fire1")) PlantCrops(carrotFactory, ref im.carrotCount);
                 if (Input.GetKeyDown(KeyCode.E)) cl.h_CurrentHunger += 7f;
                 break;
             case WhatCrops.RADISH:
                 if (isInven) return;
-                if (Input.GetButtonDown("Fire1")) PlantCrops(radishFactory);
+                if (Input.GetButtonDown("Fire1")) PlantCrops(radishFactory, ref im.radishCount);
                 if (Input.GetKeyDown(KeyCode.E)) cl.h_CurrentHunger += 3f;
                 break;
             case WhatCrops.WATER:
                 if (isInven) return;
-                if (Input.GetButtonDown("Fire1")) SprinkleWater();
+                if (Input.GetButtonDown("Fire1")) SprinkleWater(ref im.waterCount);
                 if (Input.GetKeyDown(KeyCode.E)) cl.t_CurrentThirsty += 10f;
                 break;
         }
     }
 
     //감자심기
-    private void PlantCrops(GameObject plantCrops)
+    private void PlantCrops(GameObject plantCrops ,ref int crops)
     {
         Ray ray = new Ray(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle);
         Debug.DrawRay(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle, Color.green);
@@ -82,13 +84,19 @@ public class CropsManager : MonoBehaviour
         if (Physics.Raycast(ray, out rayHit, rayDis, (1 << 12)))
         {
             GameObject PreparedLand = rayHit.transform.gameObject;
-            GameObject plant = Instantiate(plantCrops);
-
-            plant.transform.position = PreparedLand.transform.position;
+            if (PreparedLand.transform.childCount <= 0 && crops > 0)
+            {
+                GameObject plant = Instantiate(plantCrops);
+                plant.transform.position = PreparedLand.transform.position;
+                plant.transform.parent = PreparedLand.transform;
+                //소지한 작물 갯수를 줄인다.
+                crops--;
+            }
+            //plant.transform.position = PreparedLand.transform.position;
         }
     }
 
-    private void SprinkleWater()
+    private void SprinkleWater(ref int waterCount)
     {
         Ray ray = new Ray(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle);
         Debug.DrawRay(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle, Color.blue);
@@ -96,9 +104,10 @@ public class CropsManager : MonoBehaviour
         if (Physics.Raycast(ray, out rayHit, rayDis, (1 << 12)))
         {
             MeshRenderer mr = rayHit.transform.gameObject.GetComponent<MeshRenderer>();
-            mr.material.color = new Color(89f, 36, 28);
+            mr.material.color = new Color(0.3867925f, 0.1446878f, 0.1112941f);
 
             //물 카운트를 줄인다.
+            waterCount--;
         }
     }
 
