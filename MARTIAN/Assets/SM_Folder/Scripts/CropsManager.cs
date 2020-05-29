@@ -76,15 +76,11 @@ public class CropsManager : MonoBehaviour
     //감자심기
     private void PlantCrops(GameObject plantCrops)
     {
-        Debug.Log("??????");
-
         Ray ray = new Ray(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle);
         Debug.DrawRay(rayStart.transform.position, rayStart.transform.forward * rayDis + rayStart.transform.up * angle, Color.green);
 
         if (Physics.Raycast(ray, out rayHit, rayDis, (1 << 12)))
         {
-            Debug.Log("!!!!!!!!!!");
-
             GameObject PreparedLand = rayHit.transform.gameObject;
             GameObject plant = Instantiate(plantCrops);
 
