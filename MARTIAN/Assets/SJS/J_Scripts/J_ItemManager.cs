@@ -34,9 +34,9 @@ public class J_ItemManager : MonoBehaviour
                 J_Slots s = J_Inventory.j_Inventory.items[i].GetComponent<J_Slots>();
                 if(items2[i] !=null)
                 {
-                    s.Image.SetActive(true);
-                    s.Image.GetComponent<Image>().sprite = items2[i].itemImage;
-                    s.text.GetComponent<Text>().text = items2[i].auount.ToString();
+                    s.mainIamge.SetActive(true);
+                    s.Image.sprite = items2[i].itemImage;
+                    s.text.text = items2[i].auount.ToString();
                     s.name = items2[i].itemName;
                 }                                   
             }

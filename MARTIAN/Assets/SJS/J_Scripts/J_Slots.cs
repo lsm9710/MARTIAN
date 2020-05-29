@@ -3,31 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class J_Slots : MonoBehaviour
+public class J_Slots : J_SlotButtons
 {
     //이 스크립트는 슬롯을 관리 해주는 스크립트입니다 
     //이 스크립트와 인벤토리 스크립트는 같이 사용 됩니다
 
 
-     
-    public GameObject Image;
-    public GameObject text;
+    public GameObject mainIamge;
+    public Image Image;
+    public Text text;
     public string name;
 
-    //채굴한 아이템의 이미지
-    Image mainImage;
-    //채굴한 아이템의 갯수
-    Text texts;
 
+    J_PlayerMove player;
+    private void Awake()
+    {
+        player = GameObject.Find("Player").GetComponent<J_PlayerMove>();
+    }
     private void Start()
     {
-        mainImage = Image.GetComponent<Image>();
-        texts = text.GetComponent<Text>();
     }
     public void MySeilf(string IName, Sprite IIamge, int sum)
     {
         name = IName;
-        mainImage.sprite = IIamge;
-        texts.text = sum.ToString();
+        Image.sprite = IIamge;
+        text.text = sum.ToString();
+    }
+
+
+    //이 함수는 버튼을 클릭하면 나오는 이미지나 사용 법등을 출력해줄 ui사용 버튼입니다
+
+    public void ButtonClicks()
+    {
+        //조건에 맞춰서 ui이를 출력한다 
+        if (player.lockerClick == true)
+        {
+
+        }
+
     }
 }

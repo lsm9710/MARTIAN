@@ -29,6 +29,9 @@ public class J_PlayerMove : MonoBehaviour
 
     bool onInv;
 
+
+    //현제 보관함이랑 충돌을 하고 있는지 알기 위한 bool 변수입니다
+    public bool lockerClick;
     //중력 값입니다
     public float gravity = 9.8f;
     // Start is called before the first frame update
