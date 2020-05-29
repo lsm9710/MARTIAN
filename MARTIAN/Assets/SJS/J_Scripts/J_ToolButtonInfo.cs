@@ -71,16 +71,14 @@ public class J_ToolButtonInfo : MonoBehaviour
             {
                 if (J_ItemManager.j_Item.items2[j] != null)
                 {
-                    print("비어있지 않습니다" + J_ItemManager.j_Item.items2[j]);
+
                     if (names[i] == J_ItemManager.j_Item.items2[j].itemName)
                     {
-                        print("동일합니다" + names[i] + " / " + J_ItemManager.j_Item.items2[j].itemName);
-                        print(J_ItemManager.j_Item.items2[j].auount);
-                        print(spriteAount[i]);
+                      
                         //서로 다르기 때문에 앞쪽은 빨강색 뒷 색은 검은색으로표시해줍니다   
                         if (J_ItemManager.j_Item.items2[j].auount < spriteAount[i])
                         {
-                            print("서로 다른 값을 가지고 있습니다");
+                        
                             //텍스트를 빨강색으로 표시해줍니다
                             stuff.GetComponentInChildren<Text>().text = "<color=#ff0000>" +
                                 J_ItemManager.j_Item.items2[j].auount.ToString() + "</color>" +

@@ -13,12 +13,17 @@ public class J_Slots : J_SlotButtons
     public Image Image;
     public Text text;
     public string name;
-
+    public GameObject itemMy;
 
     J_PlayerMove player;
+
+    Button button;
     private void Awake()
     {
         player = GameObject.Find("Player").GetComponent<J_PlayerMove>();
+        button = GetComponent<Button>();
+        button.onClick.AddListener(ButtonClick);
+
     }
     private void Start()
     {
@@ -33,13 +38,10 @@ public class J_Slots : J_SlotButtons
 
     //이 함수는 버튼을 클릭하면 나오는 이미지나 사용 법등을 출력해줄 ui사용 버튼입니다
 
-    public void ButtonClicks()
+    public void ButtonClick()
     {
-        //조건에 맞춰서 ui이를 출력한다 
-        if (player.lockerClick == true)
-        {
-
-        }
+        _Slots = gameObject;
+        ButtonClicks();
 
     }
 }

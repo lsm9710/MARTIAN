@@ -50,10 +50,6 @@ public class J_CarRepair : MonoBehaviour
             }
         }
     }
-
-
-
-
     public void Test()
     {
        /* //총 몇개의 재료가 있는지 확인하고 그만큼 for를 돌려서 검사합니다 

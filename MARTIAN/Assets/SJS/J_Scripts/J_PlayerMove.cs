@@ -29,6 +29,8 @@ public class J_PlayerMove : MonoBehaviour
 
     bool onInv;
 
+    //아이템을 클릭하여 나오는 선택창입니다
+    public GameObject iamge;
 
     //현제 보관함이랑 충돌을 하고 있는지 알기 위한 bool 변수입니다
     public bool lockerClick;
@@ -49,6 +51,12 @@ public class J_PlayerMove : MonoBehaviour
         if (inv.activeSelf || myMoveban)
         {
             return;
+        }
+
+        if(iamge.activeSelf == true)
+        {
+            //아이템설정 창이 열려있으면 닫아준다 
+            iamge.SetActive(false);
         }
 
 

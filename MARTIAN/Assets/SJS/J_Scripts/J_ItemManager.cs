@@ -34,6 +34,7 @@ public class J_ItemManager : MonoBehaviour
                 J_Slots s = J_Inventory.j_Inventory.items[i].GetComponent<J_Slots>();
                 if(items2[i] !=null)
                 {
+                    s.itemMy = items2[i].my;
                     s.mainIamge.SetActive(true);
                     s.Image.sprite = items2[i].itemImage;
                     s.text.text = items2[i].auount.ToString();
@@ -65,6 +66,7 @@ public class J_ItemManager : MonoBehaviour
                 items2[i] = j_Item;
                 items2[i].auount++;
                 items2[i].itemImage = j_Item.itemImage;
+                items2[i].my = x;
                 //받아드려오는 오브젝트의 내부속 이름
                 // items2[i].itemName = j_Item.itemName;
                 //오브젝트의 이미지 스프라이트 설정해줍니다

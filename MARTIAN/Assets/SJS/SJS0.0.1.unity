@@ -542,13 +542,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1943132060}
   Image: {fileID: 1943132062}
   text: {fileID: 1518680223}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &30403317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,12 +1115,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1242506883}
   Image: {fileID: 1242506885}
   text: {fileID: 1152177669}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &103293718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1453,12 +1459,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 588478509}
   Image: {fileID: 588478511}
   text: {fileID: 687933374}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &133393955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1824,13 +1833,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 266464677}
   Image: {fileID: 266464679}
   text: {fileID: 1859297107}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &161601869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2218,12 +2230,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1119345759}
   Image: {fileID: 1119345761}
   text: {fileID: 1204969179}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &182099946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2352,13 +2367,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 68840289}
   Image: {fileID: 68840291}
   text: {fileID: 1452595000}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &185756623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2487,13 +2505,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 90642721}
   Image: {fileID: 90642723}
   text: {fileID: 952598274}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &189849277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2696,7 +2717,6 @@ GameObject:
   - component: {fileID: 203730134}
   - component: {fileID: 203730133}
   - component: {fileID: 203730136}
-  - component: {fileID: 203730137}
   m_Layer: 5
   m_Name: Make
   m_TagString: Untagged
@@ -2775,7 +2795,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 203730137}
+      - m_Target: {fileID: 0}
         m_MethodName: sss
         m_Mode: 1
         m_Arguments:
@@ -2834,18 +2854,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   s: 1
---- !u!114 &203730137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203730131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7effc4ace87a88348b4071cdff6afc27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &203950494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,13 +2987,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 607707714}
   Image: {fileID: 607707716}
   text: {fileID: 1751419614}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &212067678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3114,13 +3125,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1562750179}
   Image: {fileID: 1562750181}
   text: {fileID: 1054208766}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &215227893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3410,12 +3424,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 16790241}
   Image: {fileID: 16790243}
   text: {fileID: 1199571382}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &242891246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3616,13 +3633,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 2132678010}
   Image: {fileID: 2132678012}
   text: {fileID: 500927396}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &256269094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3751,13 +3771,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1180323382}
   Image: {fileID: 1180323384}
   text: {fileID: 492263930}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &263195691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4208,13 +4231,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1204675983}
   Image: {fileID: 1204675985}
   text: {fileID: 1410069226}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &316681026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4533,13 +4559,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1506928960}
   Image: {fileID: 1506928962}
   text: {fileID: 1901837982}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &320117247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4982,13 +5011,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 2015894773}
   Image: {fileID: 2015894775}
   text: {fileID: 1823629950}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &389024308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5202,13 +5234,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1038569254}
   Image: {fileID: 1038569256}
   text: {fileID: 1636080720}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &405781330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5337,13 +5372,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1509261514}
   Image: {fileID: 1509261516}
   text: {fileID: 2030641251}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &411909167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5780,13 +5818,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 56476584}
   Image: {fileID: 56476586}
   text: {fileID: 2082193275}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &456452473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6226,12 +6267,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 658740476}
   Image: {fileID: 658740478}
   text: {fileID: 1769988787}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &513669788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6360,13 +6404,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1279566062}
   Image: {fileID: 1279566064}
   text: {fileID: 736064615}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &542989002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6495,13 +6542,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 741723505}
   Image: {fileID: 741723507}
   text: {fileID: 1612898066}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &543087261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6709,12 +6759,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1521887788}
   Image: {fileID: 1521887790}
   text: {fileID: 1188972674}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &558112584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6863,12 +6916,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 5804999}
   Image: {fileID: 5805001}
   text: {fileID: 1853029612}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &568056878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6997,13 +7053,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1044557298}
   Image: {fileID: 1044557300}
   text: {fileID: 1800073385}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &568486854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7132,13 +7191,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 857300126}
   Image: {fileID: 857300128}
   text: {fileID: 2078138115}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &570746838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7491,13 +7553,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 748322042}
   Image: {fileID: 748322044}
   text: {fileID: 837491465}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &645519297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7850,13 +7915,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1018384764}
   Image: {fileID: 1018384766}
   text: {fileID: 1503500474}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &705163828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8065,13 +8133,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 955108770}
   Image: {fileID: 955108772}
   text: {fileID: 354653210}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &726806625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8691,12 +8762,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 97996996}
   Image: {fileID: 97996998}
   text: {fileID: 949827356}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &786685677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9126,13 +9200,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1840872877}
   Image: {fileID: 1840872879}
   text: {fileID: 1470083176}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &848232523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9261,13 +9338,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1275515440}
   Image: {fileID: 1275515442}
   text: {fileID: 931780635}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &852514787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9546,12 +9626,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1241085872}
   Image: {fileID: 1241085874}
   text: {fileID: 1901443943}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &861799858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9753,12 +9836,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1083539073}
   Image: {fileID: 1083539075}
   text: {fileID: 1832883506}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &876414031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9888,12 +9974,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 166027374}
   Image: {fileID: 166027376}
   text: {fileID: 1150579906}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &891317995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10097,13 +10186,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1933249847}
   Image: {fileID: 1933249849}
   text: {fileID: 1648409659}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &931033084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10803,12 +10895,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 178728295}
   Image: {fileID: 178728297}
   text: {fileID: 1293861269}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &990788720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11087,12 +11182,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1516335397}
   Image: {fileID: 1516335399}
   text: {fileID: 1735013219}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1021320625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11233,13 +11331,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 736114948}
   Image: {fileID: 736114950}
   text: {fileID: 1585467037}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1031961161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11368,13 +11469,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 837810020}
   Image: {fileID: 837810022}
   text: {fileID: 203950496}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1037430474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12137,12 +12241,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 956699850}
   Image: {fileID: 956699852}
   text: {fileID: 240972328}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1120453567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12636,13 +12743,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1883587550}
   Image: {fileID: 1883587552}
   text: {fileID: 447044432}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1167676175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13151,13 +13261,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 869037077}
   Image: {fileID: 869037079}
   text: {fileID: 1701513459}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1200970796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13998,12 +14111,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 666669644}
   Image: {fileID: 666669646}
   text: {fileID: 235056178}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1277541910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14402,13 +14518,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1223063714}
   Image: {fileID: 1223063716}
   text: {fileID: 2105412686}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1305069735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14943,13 +15062,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1581230514}
   Image: {fileID: 1581230516}
   text: {fileID: 1572741045}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1397771620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15272,13 +15394,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1801924504}
   Image: {fileID: 1801924506}
   text: {fileID: 1391363535}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1411311035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15482,12 +15607,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 99417249}
   Image: {fileID: 99417251}
   text: {fileID: 1825877994}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1431965358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15574,7 +15702,7 @@ GameObject:
   - component: {fileID: 1442161081}
   - component: {fileID: 1442161084}
   - component: {fileID: 1442161083}
-  - component: {fileID: 1442161082}
+  - component: {fileID: 1442161085}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -15598,24 +15726,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 520, y: -38}
+  m_AnchoredPosition: {x: 533.8, y: -143}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1442161082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442161080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48be8db1af4ab2f48912683ba6fb4f5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
 --- !u!114 &1442161083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15651,6 +15764,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442161080}
   m_CullTransparentMesh: 0
+--- !u!114 &1442161085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442161080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
 --- !u!95 &1446380998
 Animator:
   serializedVersion: 3
@@ -15723,13 +15859,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1839934141}
   Image: {fileID: 1839934143}
   text: {fileID: 151997315}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1451493693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16294,12 +16433,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 934882162}
   Image: {fileID: 934882164}
   text: {fileID: 14300597}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1476607734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16430,6 +16572,7 @@ MonoBehaviour:
   inv: {fileID: 1984522014}
   speed: 7
   onAction: 0
+  iamge: {fileID: 1442161080}
   lockerClick: 0
   gravity: 9.8
   rotSpeed: 10
@@ -17010,12 +17153,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 2078541884}
   Image: {fileID: 2078541886}
   text: {fileID: 143119854}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1545788443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17752,13 +17898,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1979685670}
   Image: {fileID: 1979685672}
   text: {fileID: 1101010091}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1605433265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17967,13 +18116,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1600593596}
   Image: {fileID: 1600593598}
   text: {fileID: 1156978695}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1618593943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18797,12 +18949,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1918533078}
   Image: {fileID: 1918533080}
   text: {fileID: 1233854387}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1692077083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19523,13 +19678,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 317273806}
   Image: {fileID: 317273808}
   text: {fileID: 14609128}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1740358021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19909,13 +20067,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 2027586618}
   Image: {fileID: 2027586620}
   text: {fileID: 1656007720}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1783307292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20742,12 +20903,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 806192188}
   Image: {fileID: 806192190}
   text: {fileID: 596575984}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1833363685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20876,13 +21040,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1232371500}
   Image: {fileID: 1232371502}
   text: {fileID: 1926413219}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1835063552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22266,13 +22433,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1355061031}
   Image: {fileID: 1355061033}
   text: {fileID: 343119073}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &1968885942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23246,13 +23416,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
+  state: 1
+  _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
-  button: {fileID: 8372368838623944378, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 255129873}
   Image: {fileID: 255129875}
   text: {fileID: 769086713}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &2061798339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23381,13 +23554,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1311772347}
   Image: {fileID: 1311772349}
   text: {fileID: 713926596}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &2065250589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23537,6 +23713,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072635518}
   m_CullTransparentMesh: 0
+--- !u!1 &2072659733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2072659734}
+  m_Layer: 0
+  m_Name: SameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2072659734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072659733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1361, y: 397, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2078138113
 GameObject:
   m_ObjectHideFlags: 0
@@ -23822,13 +24028,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 2
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1384996580}
   Image: {fileID: 1384996582}
   text: {fileID: 1372358259}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &2087432078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23957,13 +24166,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  state: 1
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 28998151}
   Image: {fileID: 28998153}
   text: {fileID: 1728452211}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &2103627182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24173,12 +24385,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  slotButton: {fileID: 0}
-  button: {fileID: 0}
+  _Slots: {fileID: 0}
+  slotButton: {fileID: 1442161080}
+  button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  player: {fileID: 1479523333}
   mainIamge: {fileID: 1781615428}
   Image: {fileID: 1781615430}
   text: {fileID: 1987216539}
   name: 
+  itemMy: {fileID: 0}
 --- !u!114 &2117284136
 MonoBehaviour:
   m_ObjectHideFlags: 0
