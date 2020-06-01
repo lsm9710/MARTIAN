@@ -10,7 +10,7 @@ public class J_Item : MonoBehaviour
     //아이템 이미지
     public Sprite itemImage;
     //아이템 갯수
-    public int auount;
+    public int auount =1;
 
     public GameObject my;
     //여기에 아이템 타입을 저장해줄 변수를 만들어야합니다 
@@ -27,8 +27,7 @@ public class J_Item : MonoBehaviour
                 GameObject a = Instantiate(gameObject);
                 a.SetActive(false);
                 //아이템 메니저에게 내 자신의 정보를 넣어준다
-                J_ItemManager.j_Item.ClicksItem
-                    (a);
+                J_ItemManager.j_Item.ClicksItem(a);
                 Destroy(gameObject);
                 //gameObject.SetActive(false);
             }
@@ -39,7 +38,6 @@ public class J_Item : MonoBehaviour
     {
         if(coll.gameObject.tag == "Player")
         {
-            print(coll.gameObject.name);
             click = true;
         }
     }
@@ -47,7 +45,6 @@ public class J_Item : MonoBehaviour
     {
         if (coll.gameObject.tag == "Player")
         {
-            print(coll.gameObject.name);
             click = false;
         }
     }

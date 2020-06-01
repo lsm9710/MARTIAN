@@ -10,7 +10,7 @@ public class J_LockerInventroy : MonoBehaviour
 
     //이 스크립트는 인벤토리 스크립트 입니다 
     //즉 플레이어가 확득한 아이템을 관리 해줍니다.
-    J_Item[] a;
+
 
 
     // Update is called once per frame
@@ -27,25 +27,22 @@ public class J_LockerInventroy : MonoBehaviour
     //아이템 매니저한테 정보를 받아와서 그걸 자기 리스트 애들한테 할당해줍니다
     void ItemInformationInfo()
     {
-        a = J_ItemManager.j_Item.items2;
-        for (int i = 0; i < a.Length; i++)
+        
+        for (int i = 0; i < J_ItemManager.j_Item.items2.Length; i++)
         {
             for (int j = 0; j < items.Count; j++)
             {
-                if (a[i] != null && items[j].GetComponent<J_Slots>().name == null)
+                if (J_ItemManager.j_Item.items2[i] != null && items[j].GetComponent<J_Slots>().name == null)
                 {
                     items[i].GetComponent<J_Slots>().mainIamge.SetActive(true);
-                    items[i].GetComponent<J_Slots>().MySeilf(a[i].itemName, 
-                        a[i].itemImage, a[i].auount);
+                    items[i].GetComponent<J_Slots>().MySeilf(J_ItemManager.j_Item.items2[i].itemName,
+                        J_ItemManager.j_Item.items2[i].itemImage,
+                        J_ItemManager.j_Item.items2[i].auount);
                 }
             }
         }
 
     }
-
-
-
-
     //이 함수는 아이템 메니저에서 변경된 사항을 슬롯에게 적용해주는 역활을 해줍니다
     void ClicksItemManagers()
     {
@@ -54,6 +51,7 @@ public class J_LockerInventroy : MonoBehaviour
             if (J_ItemManager.j_Item.items2[i] == null)
             {
                 items[i].GetComponent<J_Slots>().MySeilf(null, null, 0);
+                items[i].GetComponent<J_Slots>().mainIamge.SetActive(false);
             }
         }
     }

@@ -11,10 +11,10 @@ public class J_ItemManager : MonoBehaviour
     //아이템의 정보를 관리해 줄 변수배열입니다
     //public GameObject[] items;
 
-    J_PlayerMove player;
+    public GameObject inv;
     private void Awake()
     {
-        player = GameObject.Find("Player").GetComponent<J_PlayerMove>();
+        
         j_Item = this;
     }
 
@@ -27,7 +27,7 @@ public class J_ItemManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(player.invClics)
+        if(inv.activeSelf)
         {
             for (int i = 0; i < items2.Length; i++)
             {
@@ -44,6 +44,8 @@ public class J_ItemManager : MonoBehaviour
         }  
     }
 
+
+    //눈에 보이지는 않지만 내부적으로 인ㅂ넨토리 안을 채워줍니다 
     public void ClicksItem(GameObject x)
     {
         for (int i = 0; i < items2.Length; i++)
@@ -56,7 +58,7 @@ public class J_ItemManager : MonoBehaviour
             {
                 if (items2[i].itemName == j_Item.itemName)
                 {
-                    items2[i].auount++;
+                    items2[i].auount += x.GetComponent<J_Item>().auount;
                     break;
                 }
             }
@@ -64,7 +66,7 @@ public class J_ItemManager : MonoBehaviour
             else if (items2[i] == null)
             {
                 items2[i] = j_Item;
-                items2[i].auount++;
+                items2[i].auount = x.GetComponent<J_Item>().auount;
                 items2[i].itemImage = j_Item.itemImage;
                 items2[i].my = x;
                 //받아드려오는 오브젝트의 내부속 이름

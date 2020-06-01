@@ -542,10 +542,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1943132060}
   Image: {fileID: 1943132062}
@@ -1114,10 +1117,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1242506883}
   Image: {fileID: 1242506885}
@@ -1458,10 +1464,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 588478509}
   Image: {fileID: 588478511}
@@ -1833,10 +1842,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 266464677}
   Image: {fileID: 266464679}
@@ -2229,10 +2241,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1119345759}
   Image: {fileID: 1119345761}
@@ -2367,10 +2382,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 68840289}
   Image: {fileID: 68840291}
@@ -2505,10 +2523,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 90642721}
   Image: {fileID: 90642723}
@@ -2987,10 +3008,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 607707714}
   Image: {fileID: 607707716}
@@ -3125,10 +3149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1562750179}
   Image: {fileID: 1562750181}
@@ -3423,10 +3450,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 16790241}
   Image: {fileID: 16790243}
@@ -3633,10 +3663,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 2132678010}
   Image: {fileID: 2132678012}
@@ -3771,10 +3804,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1180323382}
   Image: {fileID: 1180323384}
@@ -4231,10 +4267,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1204675983}
   Image: {fileID: 1204675985}
@@ -4559,10 +4598,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1506928960}
   Image: {fileID: 1506928962}
@@ -5011,10 +5053,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 2015894773}
   Image: {fileID: 2015894775}
@@ -5162,7 +5207,7 @@ PrefabInstance:
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
@@ -5234,10 +5279,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1038569254}
   Image: {fileID: 1038569256}
@@ -5372,10 +5420,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1509261514}
   Image: {fileID: 1509261516}
@@ -5818,10 +5869,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 56476584}
   Image: {fileID: 56476586}
@@ -6266,10 +6320,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 658740476}
   Image: {fileID: 658740478}
@@ -6404,10 +6461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1279566062}
   Image: {fileID: 1279566064}
@@ -6542,10 +6602,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 741723505}
   Image: {fileID: 741723507}
@@ -6758,10 +6821,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1521887788}
   Image: {fileID: 1521887790}
@@ -6915,10 +6981,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 5804999}
   Image: {fileID: 5805001}
@@ -7053,10 +7122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1044557298}
   Image: {fileID: 1044557300}
@@ -7191,10 +7263,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 857300126}
   Image: {fileID: 857300128}
@@ -7553,10 +7628,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 748322042}
   Image: {fileID: 748322044}
@@ -7915,10 +7993,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1018384764}
   Image: {fileID: 1018384766}
@@ -8133,10 +8214,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 955108770}
   Image: {fileID: 955108772}
@@ -8761,10 +8845,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 97996996}
   Image: {fileID: 97996998}
@@ -9200,10 +9287,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1840872877}
   Image: {fileID: 1840872879}
@@ -9338,10 +9428,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1275515440}
   Image: {fileID: 1275515442}
@@ -9625,10 +9718,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1241085872}
   Image: {fileID: 1241085874}
@@ -9835,10 +9931,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1083539073}
   Image: {fileID: 1083539075}
@@ -9973,10 +10072,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 166027374}
   Image: {fileID: 166027376}
@@ -10186,10 +10288,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1933249847}
   Image: {fileID: 1933249849}
@@ -10894,10 +10999,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 178728295}
   Image: {fileID: 178728297}
@@ -11181,10 +11289,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1516335397}
   Image: {fileID: 1516335399}
@@ -11331,10 +11442,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 736114948}
   Image: {fileID: 736114950}
@@ -11469,10 +11583,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 837810020}
   Image: {fileID: 837810022}
@@ -11902,27 +12019,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 2061798336}
-  - {fileID: 931033081}
-  - {fileID: 1783307289}
-  - {fileID: 1037430471}
-  - {fileID: 542988999}
-  - {fileID: 215227890}
-  - {fileID: 316681023}
-  - {fileID: 2103627179}
-  - {fileID: 185756620}
-  - {fileID: 705163825}
-  - {fileID: 1451493690}
-  - {fileID: 726806622}
-  - {fileID: 212067675}
-  - {fileID: 1618593940}
-  - {fileID: 568486851}
-  - {fileID: 1167676172}
-  - {fileID: 263195688}
-  - {fileID: 570746835}
-  - {fileID: 405781327}
-  - {fileID: 256269091}
-  - {fileID: 543087258}
+  - {fileID: 2061798338}
+  - {fileID: 931033083}
+  - {fileID: 1783307291}
+  - {fileID: 1037430473}
+  - {fileID: 542989001}
+  - {fileID: 215227892}
+  - {fileID: 316681025}
+  - {fileID: 2103627181}
+  - {fileID: 185756622}
+  - {fileID: 705163827}
+  - {fileID: 1451493692}
+  - {fileID: 726806624}
+  - {fileID: 212067677}
+  - {fileID: 1618593942}
+  - {fileID: 568486853}
+  - {fileID: 1167676174}
+  - {fileID: 263195690}
+  - {fileID: 570746837}
+  - {fileID: 405781329}
+  - {fileID: 256269093}
+  - {fileID: 543087260}
 --- !u!114 &1096997564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12240,10 +12357,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 956699850}
   Image: {fileID: 956699852}
@@ -12743,10 +12863,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1883587550}
   Image: {fileID: 1883587552}
@@ -13261,10 +13384,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 869037077}
   Image: {fileID: 869037079}
@@ -14110,10 +14236,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 666669644}
   Image: {fileID: 666669646}
@@ -14518,10 +14647,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1223063714}
   Image: {fileID: 1223063716}
@@ -14747,36 +14879,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355061031}
   m_CullTransparentMesh: 0
---- !u!1 &1365748831
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1365748832}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1365748832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365748831}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1372358257
 GameObject:
   m_ObjectHideFlags: 0
@@ -15062,10 +15164,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1581230514}
   Image: {fileID: 1581230516}
@@ -15394,10 +15499,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1801924504}
   Image: {fileID: 1801924506}
@@ -15606,10 +15714,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 99417249}
   Image: {fileID: 99417251}
@@ -15859,10 +15970,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1839934141}
   Image: {fileID: 1839934143}
@@ -16432,10 +16546,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 934882162}
   Image: {fileID: 934882164}
@@ -16649,7 +16766,7 @@ Transform:
   m_Children:
   - {fileID: 439786559}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503500472
 GameObject:
@@ -17152,10 +17269,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 2078541884}
   Image: {fileID: 2078541886}
@@ -17417,7 +17537,7 @@ RectTransform:
   - {fileID: 2072635519}
   - {fileID: 1442161081}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17898,10 +18018,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1979685670}
   Image: {fileID: 1979685672}
@@ -18116,10 +18239,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1600593596}
   Image: {fileID: 1600593598}
@@ -18948,10 +19074,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1918533078}
   Image: {fileID: 1918533080}
@@ -19678,10 +19807,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 317273806}
   Image: {fileID: 317273808}
@@ -20067,10 +20199,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 2027586618}
   Image: {fileID: 2027586620}
@@ -20478,7 +20613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805505324 stripped
 GameObject:
@@ -20902,10 +21037,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 806192188}
   Image: {fileID: 806192190}
@@ -21040,10 +21178,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1232371500}
   Image: {fileID: 1232371502}
@@ -22433,10 +22574,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1355061031}
   Image: {fileID: 1355061033}
@@ -23344,7 +23488,7 @@ PrefabInstance:
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
@@ -23416,10 +23560,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 255129873}
   Image: {fileID: 255129875}
@@ -23554,10 +23701,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1311772347}
   Image: {fileID: 1311772349}
@@ -23741,7 +23891,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2078138113
 GameObject:
@@ -24028,10 +24178,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 2
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1384996580}
   Image: {fileID: 1384996582}
@@ -24166,10 +24319,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 1
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 28998151}
   Image: {fileID: 28998153}
@@ -24384,10 +24540,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead7128a623b48443a111493ab851da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scls: {fileID: 0}
+  text1: {fileID: 0}
   state: 0
   _Slots: {fileID: 0}
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
+  button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
   player: {fileID: 1479523333}
   mainIamge: {fileID: 1781615428}
   Image: {fileID: 1781615430}
@@ -24570,7 +24729,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2133798891
 MonoBehaviour:
@@ -24606,6 +24765,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  inv: {fileID: 1984522014}
 --- !u!1 &1000010562466997
 GameObject:
   m_ObjectHideFlags: 0

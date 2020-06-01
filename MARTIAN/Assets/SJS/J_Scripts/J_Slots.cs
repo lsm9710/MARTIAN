@@ -8,21 +8,23 @@ public class J_Slots : J_SlotButtons
     //이 스크립트는 슬롯을 관리 해주는 스크립트입니다 
     //이 스크립트와 인벤토리 스크립트는 같이 사용 됩니다
 
+    //public J_Item _Item;
+    
 
     public GameObject mainIamge;
     public Image Image;
     public Text text;
     public string name;
+
+    //현제 자신이 클릭 되엇다는걸 알리는 명령문입니다 
     public GameObject itemMy;
 
-    J_PlayerMove player;
 
-    Button button;
+    Button buttons;
     private void Awake()
     {
-        player = GameObject.Find("Player").GetComponent<J_PlayerMove>();
-        button = GetComponent<Button>();
-        button.onClick.AddListener(ButtonClick);
+        buttons = GetComponent<Button>();
+        buttons.onClick.AddListener(ButtonClick);
 
     }
     private void Start()
@@ -33,6 +35,10 @@ public class J_Slots : J_SlotButtons
         name = IName;
         Image.sprite = IIamge;
         text.text = sum.ToString();
+        if (sum ==0)
+        {
+            text.text ="";
+        }
     }
 
 
@@ -40,6 +46,7 @@ public class J_Slots : J_SlotButtons
 
     public void ButtonClick()
     {
+        //현제 자기 자신이 클릭된걸 알려준다 
         _Slots = gameObject;
         ButtonClicks();
 

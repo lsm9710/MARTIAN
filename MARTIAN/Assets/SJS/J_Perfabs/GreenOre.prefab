@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2466958498739189279}
   - component: {fileID: 114847064713339794}
   m_Layer: 0
-  m_Name: GreeOre
+  m_Name: GreenOre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,5 +144,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: 
   itemImage: {fileID: 0}
-  auount: 0
+  auount: 1
+  my: {fileID: 0}
   click: 0

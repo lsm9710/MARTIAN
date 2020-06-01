@@ -123,5 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "\uAD6C\uB9AC"
   itemImage: {fileID: 21300000, guid: 425950987273cf44c84eb816e7b88495, type: 3}
-  auount: 0
+  auount: 1
+  my: {fileID: 0}
   click: 0
