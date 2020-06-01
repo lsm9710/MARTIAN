@@ -9,6 +9,8 @@ TagManager:
   - CARROT
   - POTATO
   - RADISH
+  - Crop
+  - Unnecessary
   layers:
   - Default
   - TransparentFX

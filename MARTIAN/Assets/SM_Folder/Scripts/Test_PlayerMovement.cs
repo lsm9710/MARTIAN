@@ -60,7 +60,6 @@ public class Test_PlayerMovement : MonoBehaviour
  
     public void TurnONOFF()
     {
-        print(switchOfTheLight);
         if (switchOfTheLight)
         {
             for (int i = 0; i < lights.Length; i++)

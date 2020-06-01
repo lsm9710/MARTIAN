@@ -20,7 +20,7 @@ public class DayAndNight : MonoBehaviour
     void Start()
     {
         dayFogDensity = RenderSettings.fogDensity;
-        tpm = GameObject.Find("Test_Player").GetComponent<Test_PlayerMovement>();
+        tpm = GameObject.Find("Player_Body").GetComponent<Test_PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -35,7 +35,6 @@ public class DayAndNight : MonoBehaviour
         }
         else if (transform.eulerAngles.x >= -10)
         {
-            Debug.Log("야 이새꺄");
             isNight = false;
             tpm.switchOfTheLight = false;
             tpm.TurnONOFF();
@@ -51,7 +50,6 @@ public class DayAndNight : MonoBehaviour
         }
         else
         {
-            Debug.Log("왜 안타 썅");
             if (currentFogDensity >= dayFogDensity)
             {
                 currentFogDensity -= 0.1f * fogDensityCalc * Time.deltaTime;
