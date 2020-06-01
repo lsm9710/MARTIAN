@@ -59,7 +59,7 @@ public class Test_PlayerMovement : MonoBehaviour
 
         Move(h, v);
         Turnning();
-
+        PlayerInputs();
     }
 
     private void Turnning()
@@ -75,14 +75,21 @@ public class Test_PlayerMovement : MonoBehaviour
 
             Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
             playerRigidbody.MoveRotation(newRotation);
+            Vector3 a =  Vector3.forward;
+            a = transform.forward;
         }
 
     }
 
     private void Move(float h, float v)
     {
+        //Vector3 dir = new Vector3(h, 0, v);
         movement.Set(h, 0f, v);
+        // movement 를 내가 바라보는 방향에서의 방향으로 변경
+        movement = transform.TransformDirection(movement);
+
         movement = movement.normalized * moveSpeed * Time.deltaTime;
+
 
         playerRigidbody.MovePosition(transform.position + movement);
     }
