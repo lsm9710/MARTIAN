@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Stuff
+  - Door
+  - CARROT
+  - POTATO
+  - RADISH
+  - Crop
+  - Unnecessary
   layers:
   - Default
   - TransparentFX
@@ -18,7 +24,7 @@ TagManager:
   - Floor
   - Item
   - Player
-  - 
+  - CLEARED LAND
   - 
   - 
   - 

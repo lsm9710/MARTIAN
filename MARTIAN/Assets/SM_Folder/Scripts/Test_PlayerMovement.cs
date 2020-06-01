@@ -12,6 +12,11 @@ public class Test_PlayerMovement : MonoBehaviour
     int floorMask;
     float camRayLength = 100f;
 
+    //라이트를 켤지 말지 결정해줄 불변수
+    public bool switchOfTheLight;
+    //라이트
+    public Light[] lights;
+
     private void Awake()
     {
         floorMask = LayerMask.GetMask("Floor");
@@ -51,5 +56,23 @@ public class Test_PlayerMovement : MonoBehaviour
         movement = movement.normalized * moveSpeed * Time.deltaTime;
 
         playerRigidbody.MovePosition(transform.position + movement);
+    }
+ 
+    public void TurnONOFF()
+    {
+        if (switchOfTheLight)
+        {
+            for (int i = 0; i < lights.Length; i++)
+            {
+                lights[i].GetComponent<Light>().enabled = true;
+            }
+        }
+        else
+        {
+            for (int i = 0; i < lights.Length; i++)
+            {
+                lights[i].GetComponent<Light>().enabled = false;
+            }
+        }
     }
 } 
