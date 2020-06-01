@@ -41,7 +41,7 @@ public class Test_PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        PlayerInputs();
         //인벤토리가 켜지면 바로 탈출하여 아래 코드를 막는다
         //또 한 툴을 열었을때도 아래 코드를 실행하는 것을 막아 줘야한다
         if (inv.activeSelf || myMoveban)
@@ -61,6 +61,7 @@ public class Test_PlayerMovement : MonoBehaviour
         Turnning();
 
     }
+
 
     private void Turnning()
     {
