@@ -15,7 +15,7 @@ public class J_Locker : MonoBehaviour
     //표시 해줄 ui오브젝트를 답고 있는 게임 오브젝트 형식의 오브젝트변수입니다
     public GameObject inventroyAndLocker;
 
-    J_PlayerMove player;
+    Test_PlayerMovement player;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +40,7 @@ public class J_Locker : MonoBehaviour
 
     private void OnTriggerEnter(Collider coll)
     {
-        player = coll.GetComponent<J_PlayerMove>();
+        player = coll.GetComponent<Test_PlayerMovement>();
         if (coll.gameObject.tag == "Player")
         {
             player.lockerClick = true;
@@ -51,7 +51,7 @@ public class J_Locker : MonoBehaviour
 
     private void OnTriggerExit(Collider coll)
     {
-        player = coll.GetComponent<J_PlayerMove>();
+        player = coll.GetComponent<Test_PlayerMovement>();
 
         if (coll.gameObject.tag == "Player")
         {
