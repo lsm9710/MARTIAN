@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.22071913, g: 0.2498391, b: 0.3018868, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.02
@@ -636,7 +636,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1943132060}
   Image: {fileID: 1943132062}
   text: {fileID: 1518680223}
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1242506883}
   Image: {fileID: 1242506885}
   text: {fileID: 1152177669}
@@ -1717,7 +1717,7 @@ GameObject:
   - component: {fileID: 120625298}
   - component: {fileID: 128052052}
   - component: {fileID: 128052051}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BlueCrystal03 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1916,7 +1916,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 588478509}
   Image: {fileID: 588478511}
   text: {fileID: 687933374}
@@ -2292,7 +2292,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 266464677}
   Image: {fileID: 266464679}
   text: {fileID: 1859297107}
@@ -2779,7 +2779,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1119345759}
   Image: {fileID: 1119345761}
   text: {fileID: 1204969179}
@@ -2918,7 +2918,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 68840289}
   Image: {fileID: 68840291}
   text: {fileID: 1452595000}
@@ -3057,7 +3057,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 90642721}
   Image: {fileID: 90642723}
   text: {fileID: 952598274}
@@ -3559,7 +3559,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211582707}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5511de2454167fd4b82e2711d1372c5b, type: 3}
   m_Name: 
@@ -3625,7 +3625,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 607707714}
   Image: {fileID: 607707716}
   text: {fileID: 1751419614}
@@ -3764,7 +3764,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1562750179}
   Image: {fileID: 1562750181}
   text: {fileID: 1054208766}
@@ -4153,7 +4153,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 16790241}
   Image: {fileID: 16790243}
   text: {fileID: 1199571382}
@@ -4364,7 +4364,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 2132678010}
   Image: {fileID: 2132678012}
   text: {fileID: 500927396}
@@ -4593,7 +4593,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1180323382}
   Image: {fileID: 1180323384}
   text: {fileID: 492263930}
@@ -4819,7 +4819,7 @@ GameObject:
   - component: {fileID: 279964852}
   - component: {fileID: 272539510}
   - component: {fileID: 272539509}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rock004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4852,7 +4852,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -5144,7 +5144,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1204675983}
   Image: {fileID: 1204675985}
   text: {fileID: 1410069226}
@@ -5473,7 +5473,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1506928960}
   Image: {fileID: 1506928962}
   text: {fileID: 1901837982}
@@ -5554,6 +5554,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320117244}
   m_CullTransparentMesh: 0
+--- !u!1 &326365976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2434093865689501835, guid: 1ad28e2126ca94e43b06d2fdc8e163e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2434093863930195819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &343119071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5791,6 +5797,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354653208}
   m_CullTransparentMesh: 0
+--- !u!1 &358274775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7318735352525033311, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 731304511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &358274776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358274775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95be2dd353d721140b6583f96da6f897, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionForce: 50
+  explosionRadius: 4
+  explosionUpward: 0.4
+  cubeSize: 0.2
+  cubeInRow: 5
+  reincarnation: {fileID: 6875544350451151521, guid: 4f0c77133f871a2488d163bf3f623f2e,
+    type: 3}
+  ReincarnationSize: 4
+--- !u!54 &358274777
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358274775}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &364906027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5926,7 +5974,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 2015894773}
   Image: {fileID: 2015894775}
   text: {fileID: 1823629950}
@@ -6073,7 +6121,7 @@ PrefabInstance:
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
@@ -6150,7 +6198,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1038569254}
   Image: {fileID: 1038569256}
   text: {fileID: 1636080720}
@@ -6289,7 +6337,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1509261514}
   Image: {fileID: 1509261516}
   text: {fileID: 2030641251}
@@ -6447,88 +6495,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434238251}
   m_CullTransparentMesh: 0
---- !u!1 &439786556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 439786559}
-  - component: {fileID: 439786558}
-  - component: {fileID: 439786557}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &439786557
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439786556}
-  m_Enabled: 1
---- !u!20 &439786558
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439786556}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &439786559
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439786556}
-  m_LocalRotation: {x: 0.23463842, y: -0, z: -0, w: 0.9720828}
-  m_LocalPosition: {x: 0, y: 3.9799998, z: -4.96}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1479523339}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 27.141, y: 0, z: 0}
 --- !u!1 &447044430
 GameObject:
   m_ObjectHideFlags: 0
@@ -6667,7 +6633,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 56476584}
   Image: {fileID: 56476586}
   text: {fileID: 2082193275}
@@ -7227,7 +7193,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 658740476}
   Image: {fileID: 658740478}
   text: {fileID: 1769988787}
@@ -7456,7 +7422,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1279566062}
   Image: {fileID: 1279566064}
   text: {fileID: 736064615}
@@ -7595,7 +7561,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 741723505}
   Image: {fileID: 741723507}
   text: {fileID: 1612898066}
@@ -7812,7 +7778,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1521887788}
   Image: {fileID: 1521887790}
   text: {fileID: 1188972674}
@@ -7970,7 +7936,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 5804999}
   Image: {fileID: 5805001}
   text: {fileID: 1853029612}
@@ -8109,7 +8075,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1044557298}
   Image: {fileID: 1044557300}
   text: {fileID: 1800073385}
@@ -8248,7 +8214,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 857300126}
   Image: {fileID: 857300128}
   text: {fileID: 2078138115}
@@ -8720,7 +8686,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 748322042}
   Image: {fileID: 748322044}
   text: {fileID: 837491465}
@@ -9173,7 +9139,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1018384764}
   Image: {fileID: 1018384766}
   text: {fileID: 1503500474}
@@ -9482,7 +9448,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 955108770}
   Image: {fileID: 955108772}
   text: {fileID: 354653210}
@@ -9563,6 +9529,145 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726806622}
   m_CullTransparentMesh: 0
+--- !u!1001 &731304511
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4783891144455307236, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4783891144455307236, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968489721643595235, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968489721643595235, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6342631513274889077, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850333407487679026, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850333407487679026, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735350997800313, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735351334697442, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735351824636075, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5151839
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033311, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Name
+      value: Ore2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033311, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352812888247, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159537839350614963, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159537839350614963, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a914216e3179e44cb1bb00f0c27a6bc, type: 3}
 --- !u!1 &736064613
 GameObject:
   m_ObjectHideFlags: 0
@@ -10041,10 +10146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-
-'
+  m_Text: 
 --- !u!222 &769086714
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10111,7 +10213,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 97996996}
   Image: {fileID: 97996998}
   text: {fileID: 949827356}
@@ -10551,7 +10653,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1840872877}
   Image: {fileID: 1840872879}
   text: {fileID: 1470083176}
@@ -10690,7 +10792,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1275515440}
   Image: {fileID: 1275515442}
   text: {fileID: 931780635}
@@ -10978,7 +11080,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1241085872}
   Image: {fileID: 1241085874}
   text: {fileID: 1901443943}
@@ -11255,7 +11357,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1083539073}
   Image: {fileID: 1083539075}
   text: {fileID: 1832883506}
@@ -11484,7 +11586,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 166027374}
   Image: {fileID: 166027376}
   text: {fileID: 1150579906}
@@ -11788,7 +11890,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1933249847}
   Image: {fileID: 1933249849}
   text: {fileID: 1648409659}
@@ -12587,7 +12689,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 178728295}
   Image: {fileID: 178728297}
   text: {fileID: 1293861269}
@@ -12875,7 +12977,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1516335397}
   Image: {fileID: 1516335399}
   text: {fileID: 1735013219}
@@ -13026,7 +13128,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 736114948}
   Image: {fileID: 736114950}
   text: {fileID: 1585467037}
@@ -13165,7 +13267,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 837810020}
   Image: {fileID: 837810022}
   text: {fileID: 203950496}
@@ -14117,7 +14219,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 956699850}
   Image: {fileID: 956699852}
   text: {fileID: 240972328}
@@ -14621,7 +14723,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1883587550}
   Image: {fileID: 1883587552}
   text: {fileID: 447044432}
@@ -15303,7 +15405,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 869037077}
   Image: {fileID: 869037079}
   text: {fileID: 1701513459}
@@ -16153,7 +16255,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 666669644}
   Image: {fileID: 666669646}
   text: {fileID: 235056178}
@@ -16562,7 +16664,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1223063714}
   Image: {fileID: 1223063716}
   text: {fileID: 2105412686}
@@ -17347,7 +17449,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1581230514}
   Image: {fileID: 1581230516}
   text: {fileID: 1572741045}
@@ -17680,7 +17782,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1801924504}
   Image: {fileID: 1801924506}
   text: {fileID: 1391363535}
@@ -17983,7 +18085,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 99417249}
   Image: {fileID: 99417251}
   text: {fileID: 1825877994}
@@ -18327,7 +18429,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1839934141}
   Image: {fileID: 1839934143}
   text: {fileID: 151997315}
@@ -18561,7 +18663,7 @@ GameObject:
   - component: {fileID: 1446380998}
   - component: {fileID: 1453815304}
   - component: {fileID: 1453815303}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BlueCrystal09 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18777,7 +18879,7 @@ GameObject:
   - component: {fileID: 1466764048}
   - component: {fileID: 1466764049}
   - component: {fileID: 1466764050}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Ore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19081,7 +19183,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 934882162}
   Image: {fileID: 934882164}
   text: {fileID: 14300597}
@@ -19162,140 +19264,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476607731}
   m_CullTransparentMesh: 0
---- !u!1 &1479523333
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1479523339}
-  - component: {fileID: 1479523338}
-  - component: {fileID: 1479523337}
-  - component: {fileID: 1479523336}
-  - component: {fileID: 1479523335}
-  - component: {fileID: 1479523334}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!143 &1479523334
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479523333}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1479523335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479523333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b55cae0a9c656aa438324aecba14f659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  invClics: 0
-  inv: {fileID: 1984522014}
-  speed: 7
-  onAction: 0
-  iamge: {fileID: 1442161080}
-  lockerClick: 0
-  gravity: 9.8
-  rotSpeed: 10
-  myMoveban: 0
---- !u!136 &1479523336
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479523333}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.747432
-  m_Height: 2.34
-  m_Direction: 1
-  m_Center: {x: -0.0047888756, y: 0.049607754, z: 0.016076207}
---- !u!23 &1479523337
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479523333}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1479523338
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479523333}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1479523339
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479523333}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0.73}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 439786559}
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1500694768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20072,7 +20040,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 2078541884}
   Image: {fileID: 2078541886}
   text: {fileID: 143119854}
@@ -20276,7 +20244,7 @@ GameObject:
   - component: {fileID: 1548459518}
   - component: {fileID: 1557851712}
   - component: {fileID: 1557851711}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BlueCrystal06 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20423,7 +20391,7 @@ RectTransform:
   - {fileID: 2072635519}
   - {fileID: 1442161081}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -20940,7 +20908,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1979685670}
   Image: {fileID: 1979685672}
   text: {fileID: 1101010091}
@@ -21159,7 +21127,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1600593596}
   Image: {fileID: 1600593598}
   text: {fileID: 1156978695}
@@ -21485,10 +21453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-
-'
+  m_Text: 
 --- !u!222 &1648409660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22013,7 +21978,7 @@ GameObject:
   - component: {fileID: 1691718045}
   - component: {fileID: 1682235999}
   - component: {fileID: 1682235998}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BlueCrystal00 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22286,7 +22251,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1918533078}
   Image: {fileID: 1918533080}
   text: {fileID: 1233854387}
@@ -22925,7 +22890,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 317273806}
   Image: {fileID: 317273808}
   text: {fileID: 14609128}
@@ -23479,7 +23444,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 2027586618}
   Image: {fileID: 2027586620}
   text: {fileID: 1656007720}
@@ -23619,7 +23584,7 @@ GameObject:
   - component: {fileID: 1780720327}
   - component: {fileID: 1790103817}
   - component: {fileID: 1790103816}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BlueCrystal04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24315,7 +24280,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 806192188}
   Image: {fileID: 806192190}
   text: {fileID: 596575984}
@@ -24454,7 +24419,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1232371500}
   Image: {fileID: 1232371502}
   text: {fileID: 1926413219}
@@ -26124,7 +26089,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1355061031}
   Image: {fileID: 1355061033}
   text: {fileID: 343119073}
@@ -27031,7 +26996,7 @@ PrefabInstance:
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 5896756029789761079, guid: 99ccd28d0f8624a4cb2f07c2d461de67,
         type: 3}
@@ -27108,7 +27073,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 255129873}
   Image: {fileID: 255129875}
   text: {fileID: 769086713}
@@ -27247,7 +27212,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1311772347}
   Image: {fileID: 1311772349}
   text: {fileID: 713926596}
@@ -27430,7 +27395,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2078138113
 GameObject:
@@ -27728,7 +27693,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1384996580}
   Image: {fileID: 1384996582}
   text: {fileID: 1372358259}
@@ -27867,7 +27832,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 28998151}
   Image: {fileID: 28998153}
   text: {fileID: 1728452211}
@@ -28086,7 +28051,7 @@ MonoBehaviour:
   slotButton: {fileID: 1442161080}
   button: {fileID: 2033610133913509391, guid: 23785e57d1bd45441990562263e74096, type: 3}
   button2: {fileID: 2033610133913509391, guid: b8adea802efd96149990a8925b650ef2, type: 3}
-  player: {fileID: 1479523333}
+  player: {fileID: 326365976}
   mainIamge: {fileID: 1781615428}
   Image: {fileID: 1781615430}
   text: {fileID: 1987216539}
@@ -28268,7 +28233,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2133798891
 MonoBehaviour:
@@ -29329,10 +29294,20 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4783891144455307236, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4968489721643595235, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
         type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968489721643595235, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6342631513274889077, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
         type: 3}
@@ -29343,6 +29318,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850333407487679026, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735350997800313, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735351334697442, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735351824636075, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7318735352525033310, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
         type: 3}
@@ -29404,10 +29399,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ore2
       objectReference: {fileID: 0}
+    - target: {fileID: 7318735352525033311, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318735352812888247, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8159537839350614963, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
         type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8159537839350614963, guid: 9a914216e3179e44cb1bb00f0c27a6bc,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a914216e3179e44cb1bb00f0c27a6bc, type: 3}

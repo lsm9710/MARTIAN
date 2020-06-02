@@ -20,6 +20,14 @@ public class J_SlotButtons : MonoBehaviour
 
     public State state;
 
+    public GameObject[] aiiItem;
+
+
+
+
+
+
+
     //지금 무슨 슬롯이 선택되었는지 알려주기 위한 변수입니다
     public GameObject _Slots;
 
@@ -34,7 +42,6 @@ public class J_SlotButtons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
         //아래 방법으로 사용하면 버튼을 생성하자마자 함수를 등록해줄수 있다
         //button.onClick.AddListener(() => print("버튼 클릭!"));
     }
@@ -105,13 +112,13 @@ public class J_SlotButtons : MonoBehaviour
         b.transform.SetParent(slotButton.transform);
     }
 
+
     void Actions()
     {
         slotButton.SetActive(false);
     }
 
-    string ss2;
-    int aa2;
+
     void Actions2()
     {
         J_Slots a = _Slots.GetComponent<J_Slots>();
@@ -154,30 +161,49 @@ public class J_SlotButtons : MonoBehaviour
         //창고에서 인벤토리로 꺼내는 조건입니다
         else if(state == State.LOCKER)
         {
-
+            for(int i = 0; i< J_ItemManager.j_Item.items2.Length; i++)
+            {
+                if(J_ItemManager.j_Item.items2[i].itemName == _Slots.GetComponent<J_Slots>().name)
+                {
+                    J_ItemManager.j_Item.items2[i].auount += clickButton.GetComponent<J_SclectButton>().ss;
+                }
+                else if(J_ItemManager.j_Item.items2[i] == null)
+                {
+                    /*
+                    J_ItemManager.j_Item.items2[i] = j_Item;
+                    J_ItemManager.j_Item.items2[i].auount = x.GetComponent<J_Item>().auount;
+                    J_ItemManager.j_Item.items2[i].itemImage = j_Item.itemImage;
+                    J_ItemManager.j_Item.items2[i].my = x;*/
+                }
+            }
         }
         //자신 인벤토리에서 창고로 넣어주는 상태입니다
         
         
         else if(state == State.LOCKERINVENTROY)
         {
-            //버튼 클릭시 내가 원하는 정보가 나오는지 확인하기 위해서 사용한 명령어입니다
-          
-
-            //잘나옵니다 
             for (int i = 0; i < J_LockerInvs.j_LockerInvs.items.Count;i++ )
             { 
-                if(J_LockerInvs.j_LockerInvs.items[i]!= null)
+                if(J_LockerInvs.j_LockerInvs.items[i] != null)
                 {
-                    
+                   
                     //int.Parse(gameObject.GetComponent<J_Slots>().text.text)
                     //J_LockerInvs.j_LockerInvs.items[i] = gameObject.GetComponent<J_Slots>();
-                    J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().mainIamge.SetActive(true);
-                    if (J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().text.text != null)
+                   J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().mainIamge.SetActive(true);
+                    if (J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().text.text == "")
                     {
-                        J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().MySeilf(gameObject.GetComponent<J_Slots>().name,
+                        J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().MySeilf(
+                            gameObject.GetComponent<J_Slots>().name,
                       gameObject.GetComponent<J_Slots>().Image.sprite,
                       clickButton.GetComponent<J_SclectButton>().ss);
+                    }
+                    else
+                    {
+                        J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().MySeilf(
+                            gameObject.GetComponent<J_Slots>().name,
+                      gameObject.GetComponent<J_Slots>().Image.sprite,
+                      clickButton.GetComponent<J_SclectButton>().ss + 
+                      int.Parse(J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().text.text));
                     }
                  
                   
@@ -188,14 +214,20 @@ public class J_SlotButtons : MonoBehaviour
                     for(int j = 0; j < J_ItemManager.j_Item.items2.Length; j++ )
                     {
                         //지금 창고에 넣을 아이템 이름과 아이템 메니저의 이름을 검사해서 두개가 동일하면 다음 if문을 실행합니다
-                        if(J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().name == J_ItemManager.j_Item.items2[j].itemName)
+                        if(J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().name == 
+                            J_ItemManager.j_Item.items2[j].itemName)
                         {
                             J_ItemManager.j_Item.items2[j].auount-= clickButton.GetComponent<J_SclectButton>().ss;
-                            J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().MySeilf(J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().name,
-                                J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().Image.sprite, J_ItemManager.j_Item.items2[j].auount);
+
+                            //J_LockerInventroy
+                            //이걸로 수정해야합니다 생각해보니깐 아까부터 계속해서 창고에 있는 아이랑 계산해주고
+                            //있었네 ㅁㅊ ㄷㄷㄷ 
+                          
+                            ButtonClicks();
                             if (J_ItemManager.j_Item.items2[j].auount == 0)
                             {
-                               // J_ItemManager.j_Item.items2[j].GetComponent<>
+                                // J_ItemManager.j_Item.items2[j].GetComponent<>
+                                slotButton.SetActive(false);
                                 J_ItemManager.j_Item.items2[j] = null;
                             }
                             break;

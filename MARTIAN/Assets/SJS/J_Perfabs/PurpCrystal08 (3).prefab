@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2432718926963239610}
   - component: {fileID: 7426508374965582509}
   - component: {fileID: 8076103888327944819}
+  - component: {fileID: 3924285483284502429}
   m_Layer: 0
   m_Name: PurpCrystal08 (3)
   m_TagString: Untagged
@@ -147,3 +148,16 @@ MonoBehaviour:
   auount: 1
   my: {fileID: 0}
   click: 0
+--- !u!65 &3924285483284502429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6875544350451151521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24059281, y: 0.24486062, z: 0.46648496}
+  m_Center: {x: -0.042845547, y: 0.004896691, z: 0.20110755}

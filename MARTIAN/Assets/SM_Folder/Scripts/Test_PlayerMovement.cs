@@ -59,7 +59,6 @@ public class Test_PlayerMovement : MonoBehaviour
 
         Move(h, v);
         Turnning();
-        PlayerInputs();
     }
 
 

@@ -59,6 +59,7 @@ public class J_ItemManager : MonoBehaviour
                 if (items2[i].itemName == j_Item.itemName)
                 {
                     items2[i].auount += x.GetComponent<J_Item>().auount;
+                    Destroy(x);
                     break;
                 }
             }

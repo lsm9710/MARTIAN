@@ -8,7 +8,7 @@ public class J_Slots : J_SlotButtons
     //이 스크립트는 슬롯을 관리 해주는 스크립트입니다 
     //이 스크립트와 인벤토리 스크립트는 같이 사용 됩니다
 
-    //public J_Item _Item;
+    public J_Item _Item;
     
 
     public GameObject mainIamge;
@@ -23,6 +23,7 @@ public class J_Slots : J_SlotButtons
     Button buttons;
     private void Awake()
     {
+        text.text = null;
         buttons = GetComponent<Button>();
         buttons.onClick.AddListener(ButtonClick);
 
@@ -34,6 +35,7 @@ public class J_Slots : J_SlotButtons
     {
         name = IName;
         Image.sprite = IIamge;
+
         text.text = sum.ToString();
         if (sum ==0)
         {
