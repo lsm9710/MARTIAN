@@ -31,6 +31,8 @@ public class J_ToolMakeButton : MonoBehaviour
     //각 재료의 수량을 저장해줄 변수입니다
     int[] subAount;
 
+    Transform player;
+    J_ItemInformationManager allItem;
     public bool s = true;
     // Update is called once per frame
     void Update()
@@ -50,7 +52,6 @@ public class J_ToolMakeButton : MonoBehaviour
             ButtonDClicks();
             for (int i = 0; i < makeClicks.Length; i++)
             {
-                print(makeClicks[i]);
                 //논리적 계산을 통한 true검사입니다
                 s &= makeClicks[i];
             }
@@ -67,6 +68,25 @@ public class J_ToolMakeButton : MonoBehaviour
         //여기는 만들수 있는지 채크해주는 for문입니다 
         
     }
+
+    public void Comelpete()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        allItem = GameObject.Find("ItemInformationManager").GetComponent<J_ItemInformationManager>();
+        for (int i = 0; i < allItem.comelpetes.Length; i++)
+        {
+            J_Item _Item = allItem.comelpetes[i].GetComponent<J_Item>();
+            if(_Item.itemName == J_Mune.mune.buttonNmb.GetComponent<J_ToolButtonInfo>().completeName)
+            {
+                print("완성품입니다");
+                GameObject a = Instantiate(allItem.comelpetes[i]);
+                a.transform.position = player.position;
+            }
+        }
+        
+    }
+
+
 
 
     //버튼을 클릭하면 실행합니다

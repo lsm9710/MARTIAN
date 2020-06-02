@@ -46,13 +46,12 @@ public class J_Coppers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_PlayerMove.onAction)
+        if (mining)
         {
-            if (mining)
-            {
-                Ore();
-            }
+            if(Input.GetKey(KeyCode.E))
+            Ore();
         }
+
     }
 
     //모든 광석에 상속될 함수이기때문에 이름을 Ore로 정함
@@ -163,13 +162,5 @@ public class J_Coppers : MonoBehaviour
             mining = false;
         }
     }
-    /*
-        private void OnCollisionEnter(Collision coll)
-        {
-            if (coll.gameObject.tag == "Player")
-            {
-                //충돌 대상이 플레이어면 채굴이 가능합니다
-                mining = true;
-            }
-        }*/
+     
 }

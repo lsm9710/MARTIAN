@@ -5,12 +5,16 @@ using UnityEngine.UI;
 
 public class J_ToolButtonInfo : MonoBehaviour
 {
-
+    public string completeName;
     //버튼을 클릭하면 그 버튼의 만드는데 필요한 재료를 알수 있습니다
 
     public GameObject stuff;
     //이건 각 재료들의 갯수에 맞추어 이미지를 소환해 줄 int 변수입니다
     public int aountMat;
+
+    //완성품 이미지를 출력해줍니다
+    public Image comelpete;
+
 
     //이미지 사진을 넣어둘 스프라이트 변수 배열입니다
     public Sprite[] sprites;
@@ -25,6 +29,9 @@ public class J_ToolButtonInfo : MonoBehaviour
 
     public Button my;
 
+
+
+    J_ItemInformationManager j_ItemInformationManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,11 +49,22 @@ public class J_ToolButtonInfo : MonoBehaviour
     public bool[] s;
     //또 다른 문제점 자신을 계속해서 클릭하면 누적되는것이 아니라 선택을 못하게 막아야한다
     int setSum;
+
+    //버튼이 클릭 되면 
     public void OnButtons()
     {
         J_ToolMakeButton.j_ToolMakeButton.s = true;
+        j_ItemInformationManager = GameObject.Find("ItemInformationManager").GetComponent<J_ItemInformationManager>();
+        for (int i = 0; i < j_ItemInformationManager.comelpetes.Length; i++)
+        {
+            if(j_ItemInformationManager.comelpetes[i].GetComponent<J_Item>().itemName == completeName)
+            {
+                comelpete.sprite = j_ItemInformationManager.comelpetes[i].GetComponent<J_Item>().itemImage;
+            }
+        }
 
-        for(int i = 0; i  < aountMat; i++)
+
+        for (int i = 0; i  < aountMat; i++)
         {
             s[i] = true;
         }

@@ -49,6 +49,7 @@ public class J_Slots : J_SlotButtons
     public void ButtonClick()
     {
         //현제 자기 자신이 클릭된걸 알려준다 
+        infoItem = GameObject.Find("ItemInformationManager");
         _Slots = gameObject;
         ButtonClicks();
 

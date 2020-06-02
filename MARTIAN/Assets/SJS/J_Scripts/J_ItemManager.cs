@@ -39,7 +39,12 @@ public class J_ItemManager : MonoBehaviour
                     s.Image.sprite = items2[i].itemImage;
                     s.text.text = items2[i].auount.ToString();
                     s.name = items2[i].itemName;
-                }                                   
+                }   
+                else
+                {
+                    s.MySeilf(null, null, 0);
+                    s.mainIamge.SetActive(false);
+                }
             }
         }  
     }

@@ -20,13 +20,7 @@ public class J_SlotButtons : MonoBehaviour
 
     public State state;
 
-    public GameObject[] aiiItem;
-
-
-
-
-
-
+    public GameObject infoItem;
 
     //지금 무슨 슬롯이 선택되었는지 알려주기 위한 변수입니다
     public GameObject _Slots;
@@ -39,9 +33,15 @@ public class J_SlotButtons : MonoBehaviour
 
     Button clickButton;
     public GameObject player;
+
+    private void Awake()
+    {
+        
+    }
     // Start is called before the first frame update
     void Start()
     {
+       
         //아래 방법으로 사용하면 버튼을 생성하자마자 함수를 등록해줄수 있다
         //button.onClick.AddListener(() => print("버튼 클릭!"));
     }
@@ -158,23 +158,59 @@ public class J_SlotButtons : MonoBehaviour
             a.itemMy.GetComponent<J_Ore>().auount = clickButton.GetComponent<J_SclectButton>().ss;
             a.itemMy.SetActive(true);
         }
+
+
+
+
         //창고에서 인벤토리로 꺼내는 조건입니다
         else if(state == State.LOCKER)
         {
-            for(int i = 0; i< J_ItemManager.j_Item.items2.Length; i++)
+            J_Slots slotss = _Slots.GetComponent<J_Slots>();
+            for (int i = 0; i< J_ItemManager.j_Item.items2.Length; i++)
             {
-                if(J_ItemManager.j_Item.items2[i].itemName == _Slots.GetComponent<J_Slots>().name)
+               
+                //만약에 같은 이름이 있다면 거기에 넣어준다 
+                if (J_ItemManager.j_Item.items2[i] != null && J_ItemManager.j_Item.items2[i].itemName == _Slots.GetComponent<J_Slots>().name)
                 {
                     J_ItemManager.j_Item.items2[i].auount += clickButton.GetComponent<J_SclectButton>().ss;
+                  
+                    break;
                 }
-                else if(J_ItemManager.j_Item.items2[i] == null)
+                //하지만 같은 이름이 존재하지 않고 자리가 남아있다면
+                else if(J_ItemManager.j_Item.items2[i] == null )
                 {
-                    /*
-                    J_ItemManager.j_Item.items2[i] = j_Item;
-                    J_ItemManager.j_Item.items2[i].auount = x.GetComponent<J_Item>().auount;
-                    J_ItemManager.j_Item.items2[i].itemImage = j_Item.itemImage;
-                    J_ItemManager.j_Item.items2[i].my = x;*/
+                    for(int j =0; j < infoItem.GetComponent<J_ItemInformationManager>().allItems.Length; j++)
+                    {
+                        if(_Slots.GetComponent<J_Slots>().name ==
+                            infoItem.GetComponent<J_ItemInformationManager>().allItems[j]
+                            .GetComponent<J_Item>().itemName)
+                        {
+                            GameObject item = Instantiate(infoItem.GetComponent<J_ItemInformationManager>().allItems[j]);
+                            item.transform.position = player.transform.position;
+                            J_Item j_Item = item.GetComponent<J_Item>();
+                            J_ItemManager.j_Item.items2[i] = j_Item;
+                            J_ItemManager.j_Item.items2[i].auount = clickButton.GetComponent<J_SclectButton>().ss;
+                            J_ItemManager.j_Item.items2[i].itemImage = j_Item.itemImage;
+                            J_ItemManager.j_Item.items2[i].my = item;
+                            item.SetActive(false);
+                            break;
+                        }
+                        break;
+                    }
+                    break;
+
                 }
+            }
+
+            //이제 여기서 창고에 있는 아이를 죽인다
+
+            slotss.MySeilf(slotss.name, slotss.Image.sprite, int.Parse(slotss.text.text) -
+                clickButton.GetComponent<J_SclectButton>().ss);
+            if (slotss.text.text == "")
+            {
+                slotButton.SetActive(false);
+                slotss.MySeilf(null, null, 0);
+                slotss.mainIamge.SetActive(false);
             }
         }
         //자신 인벤토리에서 창고로 넣어주는 상태입니다
@@ -228,6 +264,7 @@ public class J_SlotButtons : MonoBehaviour
                             {
                                 // J_ItemManager.j_Item.items2[j].GetComponent<>
                                 slotButton.SetActive(false);
+                                //J_Inventory.j_Inventory.items[j].GetComponent<J_Slots>().mainIamge.SetActive(false);
                                 J_ItemManager.j_Item.items2[j] = null;
                             }
                             break;

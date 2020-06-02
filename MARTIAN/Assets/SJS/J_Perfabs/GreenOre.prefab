@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 287338359182823137}
   - component: {fileID: 2466958498739189279}
   - component: {fileID: 114847064713339794}
+  - component: {fileID: 4041320618885533434}
   m_Layer: 0
   m_Name: GreenOre
   m_TagString: Untagged
@@ -142,8 +143,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a7b47148033444aaf5d82ed08f39d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
-  itemImage: {fileID: 0}
+  itemName: "\uAD6C\uB9AC"
+  itemImage: {fileID: 21300000, guid: 425950987273cf44c84eb816e7b88495, type: 3}
   auount: 1
   my: {fileID: 0}
   click: 0
+--- !u!65 &4041320618885533434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167967969230086590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18989716, y: 0.26372296, z: 0.16408293}
+  m_Center: {x: 0.0023813797, y: 0.00797014, z: 0.004948649}
