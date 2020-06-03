@@ -56,14 +56,18 @@ public class J_ItemManager : MonoBehaviour
         for (int i = 0; i < items2.Length; i++)
         {
             J_Item j_Item = x.GetComponent<J_Item>();
-            print(items2[i]);
             //가장 먼저 배열 클래스에 자신과 동일한 것이 있는지 확인해줍니다 
             //있으면 갯수만 늘려주고 탈출합니다
             if (items2[i] != null)
             {
                 if (items2[i].itemName == j_Item.itemName)
                 {
-                    items2[i].auount += x.GetComponent<J_Item>().auount;
+                    //이름이 동일하지만 타입이 만약에 무기이면
+                    if(j_Item.type == J_Item.ItemType.WEAPON)
+                    {
+                        continue;
+                    }
+                    items2[i].auount += j_Item.auount;
                     Destroy(x);
                     break;
                 }

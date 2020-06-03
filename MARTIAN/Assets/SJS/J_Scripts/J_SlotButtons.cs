@@ -134,6 +134,16 @@ public class J_SlotButtons : MonoBehaviour
                     J_ItemManager.j_Item.items2[i].auount -=
                         clickButton.GetComponent<J_SclectButton>().ss;
 
+
+                    if(clickButton.GetComponent<J_SclectButton>().ss != a.itemMy.GetComponent<J_Item>().auount)
+                    {
+                        GameObject x = Instantiate(a.itemMy);
+                        x.transform.position = player.transform.position;
+                        x.GetComponent<J_Item>().auount = clickButton.GetComponent<J_SclectButton>().ss;
+                    }
+                   
+                  
+
                     //만약 슬롯의 아이템 갯수가 0이면 그 자리를 비워줘야합니다
                     if (J_ItemManager.j_Item.items2[i].auount ==0)
                     {
@@ -148,15 +158,15 @@ public class J_SlotButtons : MonoBehaviour
                     break;
                 }
             }
-
-           /* GameObject mm = Instantiate(a.itemMy);
-            mm.SetActive(true);
-            mm.GetComponent<J_Item>().auount = clickButton.GetComponent<J_SclectButton>().ss;
-            mm.transform.position = player.transform.position;
-            */
             a.itemMy.transform.position = player.transform.position;
-            a.itemMy.GetComponent<J_Ore>().auount = clickButton.GetComponent<J_SclectButton>().ss;
+            a.itemMy.GetComponent<J_Item>().auount = clickButton.GetComponent<J_SclectButton>().ss;
             a.itemMy.SetActive(true);
+            /* GameObject mm = Instantiate(a.itemMy);
+             mm.SetActive(true);
+             mm.GetComponent<J_Item>().auount = clickButton.GetComponent<J_SclectButton>().ss;
+             mm.transform.position = player.transform.position;
+             */
+
         }
 
 
@@ -218,11 +228,11 @@ public class J_SlotButtons : MonoBehaviour
         
         else if(state == State.LOCKERINVENTROY)
         {
+            J_Slots slotss = _Slots.GetComponent<J_Slots>();
             for (int i = 0; i < J_LockerInvs.j_LockerInvs.items.Count;i++ )
             { 
                 if(J_LockerInvs.j_LockerInvs.items[i] != null)
-                {
-                   
+                {                   
                     //int.Parse(gameObject.GetComponent<J_Slots>().text.text)
                     //J_LockerInvs.j_LockerInvs.items[i] = gameObject.GetComponent<J_Slots>();
                    J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().mainIamge.SetActive(true);
@@ -233,13 +243,18 @@ public class J_SlotButtons : MonoBehaviour
                       gameObject.GetComponent<J_Slots>().Image.sprite,
                       clickButton.GetComponent<J_SclectButton>().ss);
                     }
-                    else
+                    else if(J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().text.text != "" && slotss.name ==
+                        J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().name)
                     {
                         J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().MySeilf(
                             gameObject.GetComponent<J_Slots>().name,
                       gameObject.GetComponent<J_Slots>().Image.sprite,
                       clickButton.GetComponent<J_SclectButton>().ss + 
                       int.Parse(J_LockerInvs.j_LockerInvs.items[i].GetComponent<J_Slots>().text.text));
+                    }
+                    else
+                    {
+                        continue;
                     }
                  
                   
@@ -269,6 +284,11 @@ public class J_SlotButtons : MonoBehaviour
                             }
                             break;
                         }
+                        else
+                        {
+                            continue;
+                        }
+                        
                     }
                     
                     break;

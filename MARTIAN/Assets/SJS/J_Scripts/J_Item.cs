@@ -14,6 +14,14 @@ public class J_Item : MonoBehaviour
 
     public GameObject my;
     //여기에 아이템 타입을 저장해줄 변수를 만들어야합니다 
+    public enum ItemType
+    {
+        WEAPON,  //장비
+        Consumer, //소비
+        STONE,  //원석
+    }
+
+    public ItemType type;
 
     [HideInInspector]
    public bool click;
@@ -28,8 +36,8 @@ public class J_Item : MonoBehaviour
                 a.SetActive(false);
                 //아이템 메니저에게 내 자신의 정보를 넣어준다
                 J_ItemManager.j_Item.ClicksItem(a);
-                Destroy(gameObject);
-                //gameObject.SetActive(false);
+                //Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }
