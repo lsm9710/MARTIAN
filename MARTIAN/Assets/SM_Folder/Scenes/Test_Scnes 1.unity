@@ -112,6 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &5804999
 GameObject:
   m_ObjectHideFlags: 0
@@ -30706,3 +30707,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad729e905be61cd46bb7e6ba5930cc5a, type: 3}
+=======
+>>>>>>> SJS1.1.3
