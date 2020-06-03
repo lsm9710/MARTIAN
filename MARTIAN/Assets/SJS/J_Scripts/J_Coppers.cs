@@ -145,8 +145,7 @@ public class J_Coppers : MonoBehaviour
         piece.GetComponent<Rigidbody>().mass = cubeSize;
     }
 
-
-    private void OnTriggerEnter(Collider coll)
+    private void OnCollisionEnter(Collision coll)
     {
         if (coll.gameObject.tag == "Player")
         {
@@ -155,21 +154,28 @@ public class J_Coppers : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider coll)
+    private void OnCollisionExit(Collision coll)
     {
         if (coll.gameObject.tag == "Player")
         {
-            //충돌 대상이 플레이어면 채굴이 가능합니다
             mining = false;
         }
     }
-    /*
-        private void OnCollisionEnter(Collision coll)
-        {
-            if (coll.gameObject.tag == "Player")
-            {
-                //충돌 대상이 플레이어면 채굴이 가능합니다
-                mining = true;
-            }
-        }*/
+
+    //private void OnTriggerEnter(Collider coll)
+    //{
+    //    if (coll.gameObject.tag == "Player")
+    //    {
+    //        //충돌 대상이 플레이어면 채굴이 가능합니다
+    //        mining = true;
+    //    }
+    //}
+    //private void OnTriggerExit(Collider coll)
+    //{
+    //    if (coll.gameObject.tag == "Player")
+    //    {
+    //        //충돌 대상이 플레이어면 채굴이 가능합니다
+    //        mining = false;
+    //    }
+    //}
 }
