@@ -187,7 +187,7 @@ public class J_SlotButtons : MonoBehaviour
                     break;
                 }
                 //하지만 같은 이름이 존재하지 않고 자리가 남아있다면
-                else if(J_ItemManager.j_Item.items2[i] == null )
+                else if(J_ItemManager.j_Item.items2[i] == null)
                 {
                     for(int j =0; j < infoItem.GetComponent<J_ItemInformationManager>().allItems.Length; j++)
                     {
@@ -205,7 +205,7 @@ public class J_SlotButtons : MonoBehaviour
                             item.SetActive(false);
                             break;
                         }
-                        break;
+                       
                     }
                     break;
 
@@ -284,10 +284,7 @@ public class J_SlotButtons : MonoBehaviour
                             }
                             break;
                         }
-                        else
-                        {
-                            continue;
-                        }
+
                         
                     }
                     

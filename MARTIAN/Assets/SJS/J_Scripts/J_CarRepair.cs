@@ -13,6 +13,8 @@ public class J_CarRepair : MonoBehaviour
     public Sprite[] sprites;
     public int aountMat;
     public GameObject materials;
+
+    //차량 수리가능해주는 버튼입니다
     public Button carReButton;
     public string[] names;
     public int[] spriteAount;
@@ -32,10 +34,14 @@ public class J_CarRepair : MonoBehaviour
     {
         for (int i = 0; i < J_ItemManager.j_Item.items2.Length; i++)
         {
+            print(J_ItemManager.j_Item.items2 + "확인입니다");
             if (J_ItemManager.j_Item.items2[i] != null)
             {
+                print("그 다음에 들어오는 곳입니다");
                 for (int j = 0; j < names.Length; j++)
                 {
+                    print(names + "확인하는 곳입니다");
+
                     //서로의 아이템 정보중 이름을 검사합니다
                     if (J_ItemManager.j_Item.items2[i].itemName == names[j])
                     {
@@ -59,7 +65,7 @@ public class J_CarRepair : MonoBehaviour
             s[i] = true;
         }
 */
-        
+        //매번 새로 초기화 해주는 곳입니다
         if(materials.transform.childCount!= 0)
         {
             for (int i = 0; i < materials.transform.childCount; i++)
@@ -135,6 +141,7 @@ public class J_CarRepair : MonoBehaviour
             a.transform.SetParent(materials.gameObject.transform);
         }
 
+        //여기서 sss가 true이면 수리 버튼을 활성화해줍니다
         for (int i = 0; i < s.Length; i++)
         {
             sss &= s[i];

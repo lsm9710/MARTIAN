@@ -27,11 +27,11 @@ public class J_Car : J_CarRepair
     public State state;
 
 
-    J_PlayerMove playerMove;
+    Test_PlayerMovement playerMove;
     // Start is called before the first frame update
     void Start()
     {
-        playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<J_PlayerMove>();
+        playerMove = GameObject.FindGameObjectWithTag("Player").GetComponent<Test_PlayerMovement>();
         //시작할때 상태는 고장난 상태입니다
         state = State.BROKEN;
     }
@@ -64,6 +64,7 @@ public class J_Car : J_CarRepair
                 playerMove.myMoveban = !playerMove.myMoveban;
                 carneedwindow.SetActive(!carneedwindow.activeSelf);
                 Test();
+                //버튼을 클릭할때 sss라는 확인용 bool값을 true로 만들어 줍니다
                 sss = true;
             }
         }
