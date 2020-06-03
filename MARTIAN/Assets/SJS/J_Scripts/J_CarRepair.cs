@@ -22,9 +22,12 @@ public class J_CarRepair : MonoBehaviour
 
     public bool sss = true;
 
+
+   public Test_PlayerMovement playerMove;
     public void OnButtons()
     {
         j_Car.state = J_Car.State.REPAIR;
+        playerMove.myMoveban = !playerMove.myMoveban;
         ButtonActionSet();
 
     }

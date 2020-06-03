@@ -27,7 +27,7 @@ public class J_Car : J_CarRepair
     public State state;
 
 
-    Test_PlayerMovement playerMove;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +48,7 @@ public class J_Car : J_CarRepair
         else if(state == State.REPAIR)
         {
             carneedwindow.SetActive(false);
-            playerMove.myMoveban = !playerMove.myMoveban;
+            //playerMove.myMoveban = !playerMove.myMoveban;
 
         }
     }
