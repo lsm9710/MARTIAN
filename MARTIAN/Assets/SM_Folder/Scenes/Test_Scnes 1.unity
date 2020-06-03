@@ -18733,6 +18733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allItems:
   - {fileID: 6875544350451151521, guid: 4f0c77133f871a2488d163bf3f623f2e, type: 3}
+  - {fileID: 2167967969230086590, guid: eec2945b19e68ad429e28e6aebaf8653, type: 3}
   comelpetes:
   - {fileID: 1001761235026842, guid: facc022907d0943adb45ee8d456e61a1, type: 3}
 --- !u!4 &1398275274

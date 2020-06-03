@@ -81,6 +81,7 @@ public class J_CarRepair : MonoBehaviour
            
         }
 */
+        //수리하는데 필요한 재료의 갯수를 말해줍니다 
         for (int i = 0; i < aountMat; i++)
         {
             //매뉴에 지금 내가 들어갔다고 알려준다
